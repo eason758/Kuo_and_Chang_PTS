@@ -2,14 +2,13 @@ import pandas as pd
 import os
 import numpy as np
 import pickle
+
+'''******************************* Do Your control below *******************************'''
+
+
 save_dir = r"C:\Users\eason\Desktop\PTDQN-main\Data\HsinHuaChang_reverse_random_300_new_std_price_pickle\\"
 data_root = r'C:\Users\eason\Desktop\PTDQN-main\Data\HsinHuaChang_reverse_random_300_new_std_pickle\\'
 stock_price_root = r'C:\Users\eason\Desktop\PT_code\stock_data\min_data\\'
-
-
-
-
-'''******************************* Do Your control below *******************************'''
 
 years = [2013, 2014, 2015, 2016, 2017, 2018, 2019]
 

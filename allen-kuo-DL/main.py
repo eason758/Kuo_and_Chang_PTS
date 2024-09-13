@@ -13,6 +13,7 @@ from shutil import copyfile
 from testing import dump_testing_result, get_performance_by_predicted_action, agg_all_cluster_result
 from dl_utlis import data_preprocess
 import pandas as pd
+import pickle
 import configparser
 
 from utils import get_optimal_actions_in_specific_pair  # noqa: E402
@@ -395,68 +396,19 @@ def draw(folder, train_loss, train_acc, validate_acc, validate_win_rate_list):
     plt.close()
 
 
-def get_trained_model_folder(top_n):
-    if top_n <= 29:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-13-53-00-2017_20029_29_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-13-51-55-2017_200_29_29'
-    elif top_n <= 60:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-14-02-11-2017_20060_60_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-13-55-29-2017_200_60_60'
-    elif top_n <= 131:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-14-18-18-2017_200131_131_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-14-00-48-2017_200_131_131'
-    elif top_n <= 229:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-14-49-38-2017_200229_229_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-14-09-55-2017_200_229_229'
-    elif top_n <= 391:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-15-40-43-2017_200391_391_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-14-23-46-2017_200_391_391'
-    elif top_n <= 655:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-13-52-59-2017_200655_655_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-14-44-33-2017_200_655_655'
-    elif top_n <= 1076:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-15-52-29-2017_2001076_1076_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-15-15-29-2017_200_1076_1076'
-    elif top_n <= 1661:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-18-46-56-2017_2001661_1661_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-16-01-31-2017_200_1661_1661'
-    elif top_n <= 2394:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-13-53-04-2017_2002394_2394_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-17-03-44-2017_200_2394_2394'
-    elif top_n <= 3354:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-19-04-26-2017_2003354_3354_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-20-35-46-2017_200_3354_3354'
-    elif top_n <= 4627:
-        source_trained_model_folder = '2022/20220425-P149C2/2022-04-15-13-52-57-2017_2004627_4627_150'
-        pre_trained_model_folder = '20220704-P66/tmp1/2022-06-30-22-15-32-2017_200_4627_4627'
-    else:
-        raise ValueError(f'Unknown top_n:{top_n}!')
-    return source_trained_model_folder, pre_trained_model_folder
 
 
 def main(test_year, test_start_month=1, n_test_month=24,
              validate_start_year=2017, second_stage_months=12, second_stage_start_month=1,
              validate_start_month=11, validate_months=2,
              training_months=22,
-         top_n=None, two_stage=False, load_pre_trained_model=False):
+             two_stage=False):
 
     test_info = dict()
     now = datetime.datetime.now()
     date = now.strftime('%Y-%m-%d-%H-%M-%S')
-    specific_model_type = 0
-    model_type_json_file = None
-    if top_n is None:
-        stock1 = None
-        stock2 = None
-    else:
-        with open("../stock_info/HsinHuaChang_with_trend_TOP_N_STOCK1_IN_2015_2016.txt") as F:
-            top_stock1 = [line.strip() for line in F]
-        with open("../stock_info/HsinHuaChang_with_trend_TOP_N_STOCK2_IN_2015_2016.txt") as F:
-            top_stock2 = [line.strip() for line in F]
-        stock1 = top_stock1[top_n - 1]
-        stock2 = top_stock2[top_n - 1]
 
-
+    
     stock_price_data_folder = [r'Data\HsinHuaChang_reverse_random_300_new_std_price_pickle',]
     #                   'HsinHuaChang_reverse_random_300_trend_stationary_new_std_pickle']
 
@@ -465,9 +417,6 @@ def main(test_year, test_start_month=1, n_test_month=24,
 
     # Create unique folder to record the training setting
     folder_name = f'tmp7/{date}-{test_year}_{EPOCH}'
-    if specific_model_type:
-        folder_name += f'model_type={specific_model_type}'
-    folder_name += f'_{stock1}_{stock2}'
     if not os.path.exists(f'{MODEL_FOLDER_ROOT}/{folder_name}'):
         os.makedirs(f'{MODEL_FOLDER_ROOT}/{folder_name}')
         os.makedirs(f'{MODEL_FOLDER_ROOT}/{folder_name}/first_stage')
@@ -485,46 +434,34 @@ def main(test_year, test_start_month=1, n_test_month=24,
             copyfile(file, program_file + os.path.basename(file))
 
 
-    if top_n is not None:
-        # Use trained model folder to get target actions
-        source_trained_model_folder, pre_trained_model_folder = get_trained_model_folder(top_n)
-        if not load_pre_trained_model:
-            pre_trained_model_folder = None
-        with open(f'D:/ptdqn_model/{source_trained_model_folder}/agent_info.json', 'r') as f:
-            PRE_TRAINED_MODEL_DATA = json.load(f)
-            given_action = PRE_TRAINED_MODEL_DATA['GIVEN_ACTION']
-            given_action.sort(reverse=True)
-            logging.info(f'Use {source_trained_model_folder} get given action: {given_action}')
+    if os.path.exists(r'C:\Users\eason\Desktop\PTDQN-main\allen-kuo-DL\actions.pkl'):
+        with open(r'C:\Users\eason\Desktop\PTDQN-main\allen-kuo-DL\actions.pkl', 'rb') as f:
+            given_action = pickle.load(f)
     else:
-        import pickle
-        if os.path.exists(r'C:\Users\eason\Desktop\PTDQN-main\allen-kuo-DL\actions.pkl'):
-            with open(r'C:\Users\eason\Desktop\PTDQN-main\allen-kuo-DL\actions.pkl', 'rb') as f:
-                given_action = pickle.load(f)
-        else:
-            # Use representation labeling mechanism `HighFreq` to get the target actions
-            _, given_action = get_optimal_actions_in_specific_pair(validate_start_year, validate_start_month,
-                                                                   training_months, data_folder)
-            given_action.sort(reverse=True)
-            # Non-opening action need to cast to int to match the key in data folder
-            try:
-                given_action[given_action.index([1000000, 2500000])] = \
-                    [int(x) for x in given_action[given_action.index([1000000, 2500000])]]
+        # Use representation labeling mechanism `HighFreq` to get the target actions
+        _, given_action = get_optimal_actions_in_specific_pair(validate_start_year, validate_start_month,
+                                                               training_months, data_folder)
+        given_action.sort(reverse=True)
+        # Non-opening action need to cast to int to match the key in data folder
+        try:
+            given_action[given_action.index([1000000, 2500000])] = \
+                [int(x) for x in given_action[given_action.index([1000000, 2500000])]]
 
-                with open(r'C:\Users\eason\Desktop\PTDQN-main\allen-kuo-DL\actions.pkl', 'wb') as f:
-                    pickle.dump(given_action, f)
-            except ValueError:
-                print('Non-opening action does not in given action!')
-        logging.info(f'Use training data pairs to get given action: {given_action}')
-        pre_trained_model_folder = None
+            with open(r'C:\Users\eason\Desktop\PTDQN-main\allen-kuo-DL\actions.pkl', 'wb') as f:
+                pickle.dump(given_action, f)
+        except ValueError:
+            print('Non-opening action does not in given action!')
+    logging.info(f'Use training data pairs to get given action: {given_action}')
+    pre_trained_model_folder = None
 
     test_info['test_year'] = test_year
     test_info['test_month'] = test_start_month
     test_info['test_months'] = n_test_month
     test_info['given_action'] = given_action
-    test_info['stock1'] = stock1
-    test_info['stock2'] = stock2
-    test_info['specific_model_type'] = specific_model_type
-    test_info['model_type_json_file'] = model_type_json_file
+    test_info['stock1'] = None
+    test_info['stock2'] = None
+    test_info['specific_model_type'] = 0
+    test_info['model_type_json_file'] = None
     test_info['stock_price_data_folder'] = stock_price_data_folder
     test_info['data_folder'] = data_folder
     test_info['two_stage'] = two_stage
@@ -537,8 +474,7 @@ def main(test_year, test_start_month=1, n_test_month=24,
 
     training_data, training_label, validate_data, validate_label, validate_action_data = \
         data_preprocess(stock_price_data_folder, data_folder, validate_start_year, validate_start_month,
-                        validate_months, training_months, given_action, stock1, stock2,
-                        specific_model_type, model_type_json_file)
+                        validate_months, training_months, given_action, stock1=None, stock2=None)
 
 
     loader_train, loader_test = DataTransfer(training_data, training_label, validate_data, validate_label)
@@ -547,11 +483,13 @@ def main(test_year, test_start_month=1, n_test_month=24,
                 pre_trained_model_folder=pre_trained_model_folder)
 
     if two_stage:
+        # create second stage training data
         logging.info('Load second stage training data set!')
         second_training_data, second_training_label, _, _, second_training_action_data = \
             data_preprocess(stock_price_data_folder, data_folder, test_year, second_stage_start_month, 0, second_stage_months,
-                            given_action, stock1, stock2, specific_model_type, model_type_json_file, second_stage=True)
+                            given_action, stock1=None, stock2=None, second_stage=True)
 
+        # load first stage trained model
         if os.path.isfile(f"{MODEL_FOLDER_ROOT}/{folder_name}/first_stage/best_win_rate.pkl"):
             trained_model = torch.load(f"{MODEL_FOLDER_ROOT}/{folder_name}/first_stage/best_win_rate.pkl")
         else:
@@ -559,17 +497,19 @@ def main(test_year, test_start_month=1, n_test_month=24,
                          f'Use final.pkl instead!')
             trained_model = torch.load(f"{MODEL_FOLDER_ROOT}/{folder_name}/first_stage/final.pkl")
 
+        # get second stage training data prediction by first stage trained model
         final_result = get_performance_by_predicted_action(trained_model, second_training_data, second_training_label,
                                                            second_training_action_data, given_action)
-
         df = pd.DataFrame(final_result, columns=['date', 'stock1', 'stock2', 'action', 'record', 'half_tax_profit',
                                                  'capital', 'predict_action_idx', 'correct_action_idx', 'same_action',
                                                  'two_action_same_profit'])
         df.to_csv(f'{MODEL_FOLDER_ROOT}/{folder_name}/second_stage/training_set_2_prediction.csv')
+        
+        # create second stage training data
         second_training_label = [int(x) for x in list(df['half_tax_profit'] > 0)]
-
         second_loader_train, _ = DataTransfer(second_training_data, second_training_label)
 
+        # train second stage model
         model_train(folder_name, second_loader_train, _, _, given_action, second_stage=True)
 
     return folder_name
@@ -610,7 +550,7 @@ if __name__ == '__main__':
              validate_start_year=validate_start_year, second_stage_months=second_stage_months, second_stage_start_month=second_stage_start_month,
              validate_start_month=validate_start_month, validate_months=n_validate_months,
              training_months=n_training_months,
-             top_n=None, two_stage=True, load_pre_trained_model=False)
+             two_stage=True)
 
     elif choose_mode == 'test':  # Testing
         # must start with tmp7... and the final folder should have "first_stage" folder
@@ -630,7 +570,8 @@ if __name__ == '__main__':
     elif choose_mode == 'train and test':
         folder_name = main(test_year=test_start_year, test_start_month=test_start_month, n_test_month=n_test_month,
              validate_start_year=validate_start_year, validate_start_month=validate_start_month, validate_months=n_validate_months,
-                           second_stage_months=second_stage_months,
+             second_stage_months=second_stage_months,
              training_months=n_training_months,
-             top_n=None, two_stage=True, load_pre_trained_model=False)
+             two_stage=True)
+
         dump_testing_result(folder_name, only_first_stage=False)
