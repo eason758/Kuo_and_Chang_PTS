@@ -1,0 +1,1159 @@
+2024-04-25 20:52:28 INFO     Use training data pairs to get given action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 20:52:28 INFO     Load first stage training and validation data set!
+2024-04-25 20:52:28 INFO     Loading test data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_pickle/Pairs
+2024-04-25 20:52:28 INFO     Add validate set year/month 2016 11
+2024-04-25 20:52:30 INFO     Add validate set year/month 2016 12
+2024-04-25 20:52:32 INFO     Loading train data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_pickle/Pairs
+2024-04-25 20:52:32 INFO     Add train set year/month 2016 10
+2024-04-25 20:52:34 INFO     Add train set year/month 2016 9
+2024-04-25 20:52:35 INFO     Add train set year/month 2016 8
+2024-04-25 20:52:37 INFO     Add train set year/month 2016 7
+2024-04-25 20:52:40 INFO     Add train set year/month 2016 6
+2024-04-25 20:52:42 INFO     Add train set year/month 2016 5
+2024-04-25 20:52:43 INFO     Add train set year/month 2016 4
+2024-04-25 20:52:44 INFO     Add train set year/month 2016 3
+2024-04-25 20:52:46 INFO     Add train set year/month 2016 2
+2024-04-25 20:52:48 INFO     Add train set year/month 2016 1
+2024-04-25 20:52:50 INFO     Add train set year/month 2015 12
+2024-04-25 20:52:52 INFO     Add train set year/month 2015 11
+2024-04-25 20:52:53 INFO     Add train set year/month 2015 10
+2024-04-25 20:52:55 INFO     Add train set year/month 2015 9
+2024-04-25 20:52:57 INFO     Add train set year/month 2015 8
+2024-04-25 20:52:59 INFO     Add train set year/month 2015 7
+2024-04-25 20:53:00 INFO     Add train set year/month 2015 6
+2024-04-25 20:53:03 INFO     Add train set year/month 2015 5
+2024-04-25 20:53:06 INFO     Add train set year/month 2015 4
+2024-04-25 20:53:08 INFO     Add train set year/month 2015 3
+2024-04-25 20:53:10 INFO     Add train set year/month 2015 2
+2024-04-25 20:53:12 INFO     Add train set year/month 2015 1
+2024-04-25 20:53:14 INFO     Total Pairs: 231539
+2024-04-25 20:53:14 INFO     Train Pairs: 211573
+2024-04-25 20:53:14 INFO     Test Pairs: 19966
+2024-04-25 20:53:14 INFO     Loading test data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_price_pickle/Pairs
+2024-04-25 20:53:14 INFO     Add validate set year/month 2016 11
+2024-04-25 20:53:17 INFO     Add validate set year/month 2016 12
+2024-04-25 20:53:18 INFO     Loading train data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_price_pickle/Pairs
+2024-04-25 20:53:18 INFO     Add train set year/month 2016 10
+2024-04-25 20:53:19 INFO     Add train set year/month 2016 9
+2024-04-25 20:53:22 INFO     Add train set year/month 2016 8
+2024-04-25 20:53:23 INFO     Add train set year/month 2016 7
+2024-04-25 20:53:25 INFO     Add train set year/month 2016 6
+2024-04-25 20:53:26 INFO     Add train set year/month 2016 5
+2024-04-25 20:53:29 INFO     Add train set year/month 2016 4
+2024-04-25 20:53:30 INFO     Add train set year/month 2016 3
+2024-04-25 20:53:31 INFO     Add train set year/month 2016 2
+2024-04-25 20:53:32 INFO     Add train set year/month 2016 1
+2024-04-25 20:53:33 INFO     Add train set year/month 2015 12
+2024-04-25 20:53:34 INFO     Add train set year/month 2015 11
+2024-04-25 20:53:37 INFO     Add train set year/month 2015 10
+2024-04-25 20:53:38 INFO     Add train set year/month 2015 9
+2024-04-25 20:53:39 INFO     Add train set year/month 2015 8
+2024-04-25 20:53:41 INFO     Add train set year/month 2015 7
+2024-04-25 20:53:42 INFO     Add train set year/month 2015 6
+2024-04-25 20:53:43 INFO     Add train set year/month 2015 5
+2024-04-25 20:53:45 INFO     Add train set year/month 2015 4
+2024-04-25 20:53:48 INFO     Add train set year/month 2015 3
+2024-04-25 20:53:50 INFO     Add train set year/month 2015 2
+2024-04-25 20:53:51 INFO     Add train set year/month 2015 1
+2024-04-25 20:53:52 INFO     Total Pairs: 231539
+2024-04-25 20:53:52 INFO     Train Pairs: 211573
+2024-04-25 20:53:52 INFO     Test Pairs: 19966
+2024-04-25 20:53:52 INFO     get_input_output given_action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 20:55:11 INFO     get_input_output given_action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 20:55:21 INFO     model_train given_action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 20:55:21 INFO     model_train num_classes: 25
+2024-04-25 20:55:37 INFO     Epoch 0, train Loss: 1739.40320 Training Accuracy: 21.487146280480022
+2024-04-25 20:55:37 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:55:52 INFO     Epoch 1, train Loss: 1683.97595 Training Accuracy: 21.904968970520812
+2024-04-25 20:55:53 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:56:08 INFO     Epoch 2, train Loss: 1631.08984 Training Accuracy: 22.222117188866253
+2024-04-25 20:56:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:56:23 INFO     Epoch 3, train Loss: 1636.73047 Training Accuracy: 22.677751887055532
+2024-04-25 20:56:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:56:39 INFO     Epoch 4, train Loss: 1630.82861 Training Accuracy: 23.17970629522671
+2024-04-25 20:56:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:56:55 INFO     Epoch 5, train Loss: 1660.96826 Training Accuracy: 24.102319294049806
+2024-04-25 20:56:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:57:10 INFO     Epoch 6, train Loss: 1575.32996 Training Accuracy: 25.13647771691095
+2024-04-25 20:57:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:57:26 INFO     Epoch 7, train Loss: 1511.69250 Training Accuracy: 26.1134454774475
+2024-04-25 20:57:26 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:57:41 INFO     Epoch 8, train Loss: 1496.72351 Training Accuracy: 27.46049826773738
+2024-04-25 20:57:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:57:57 INFO     Epoch 9, train Loss: 1485.21814 Training Accuracy: 28.790063004258577
+2024-04-25 20:57:57 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:58:13 INFO     Epoch 10, train Loss: 1409.55383 Training Accuracy: 30.306797181114792
+2024-04-25 20:58:13 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:58:28 INFO     Epoch 11, train Loss: 1401.33728 Training Accuracy: 32.26215065249347
+2024-04-25 20:58:29 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:58:44 INFO     Epoch 12, train Loss: 1336.88525 Training Accuracy: 34.19907076989975
+2024-04-25 20:58:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:58:59 INFO     Epoch 13, train Loss: 1296.53906 Training Accuracy: 36.88750454925723
+2024-04-25 20:59:00 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:59:15 INFO     Epoch 14, train Loss: 1194.26257 Training Accuracy: 40.41631020971485
+2024-04-25 20:59:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:59:31 INFO     Epoch 15, train Loss: 1380.84924 Training Accuracy: 44.60162686165059
+2024-04-25 20:59:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 20:59:46 INFO     Epoch 16, train Loss: 1087.79944 Training Accuracy: 49.79227028023425
+2024-04-25 20:59:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:00:02 INFO     Epoch 17, train Loss: 970.00195 Training Accuracy: 55.776493219834286
+2024-04-25 21:00:02 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:00:18 INFO     Epoch 18, train Loss: 780.69244 Training Accuracy: 62.50230416924655
+2024-04-25 21:00:18 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:00:33 INFO     Epoch 19, train Loss: 697.59375 Training Accuracy: 69.37274604982677
+2024-04-25 21:00:34 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:00:49 INFO     Epoch 20, train Loss: 536.18182 Training Accuracy: 75.77857288028245
+2024-04-25 21:00:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:01:04 INFO     Epoch 21, train Loss: 404.95554 Training Accuracy: 81.66495724879829
+2024-04-25 21:01:05 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:01:20 INFO     Epoch 22, train Loss: 357.54584 Training Accuracy: 86.55121400178662
+2024-04-25 21:01:21 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:01:36 INFO     Epoch 23, train Loss: 260.60135 Training Accuracy: 88.89886705770586
+2024-04-25 21:01:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:01:51 INFO     Epoch 24, train Loss: 240.41248 Training Accuracy: 90.0502427058273
+2024-04-25 21:01:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:02:07 INFO     Epoch 25, train Loss: 197.10551 Training Accuracy: 93.3370515141346
+2024-04-25 21:02:07 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:02:23 INFO     Epoch 26, train Loss: 131.05208 Training Accuracy: 94.74980266858248
+2024-04-25 21:02:23 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:02:39 INFO     Epoch 27, train Loss: 1342.83240 Training Accuracy: 94.94595246085275
+2024-04-25 21:02:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:02:55 INFO     Epoch 28, train Loss: 149.38657 Training Accuracy: 94.43643565105188
+2024-04-25 21:02:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:03:10 INFO     Epoch 29, train Loss: 173.10332 Training Accuracy: 94.24879356061501
+2024-04-25 21:03:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:03:26 INFO     Epoch 30, train Loss: 163.76419 Training Accuracy: 94.6084802881275
+2024-04-25 21:03:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:03:42 INFO     Epoch 31, train Loss: 109.17647 Training Accuracy: 95.11563384741909
+2024-04-25 21:03:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:03:42 INFO     EPOCH:31 original win_rate:-1 new win_rate:0.7345816614652995
+2024-04-25 21:03:58 INFO     Epoch 32, train Loss: 141.94586 Training Accuracy: 95.05229873377037
+2024-04-25 21:03:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:04:15 INFO     Epoch 33, train Loss: 105.12856 Training Accuracy: 95.68706782056312
+2024-04-25 21:04:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:04:15 INFO     EPOCH:33 original win_rate:0.7345816614652995 new win_rate:0.739512342874451
+2024-04-25 21:04:31 INFO     Epoch 34, train Loss: 133.71150 Training Accuracy: 96.10489051060391
+2024-04-25 21:04:32 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:04:47 INFO     Epoch 35, train Loss: 116.17456 Training Accuracy: 95.28484258388357
+2024-04-25 21:04:48 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:05:03 INFO     Epoch 36, train Loss: 88.77888 Training Accuracy: 95.58355744825663
+2024-04-25 21:05:04 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:05:04 INFO     EPOCH:36 original win_rate:0.739512342874451 new win_rate:0.7433250756950179
+2024-04-25 21:05:19 INFO     Epoch 37, train Loss: 110.30634 Training Accuracy: 95.79955854480487
+2024-04-25 21:05:20 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:05:20 INFO     EPOCH:37 original win_rate:0.7433250756950179 new win_rate:0.7442385901491189
+2024-04-25 21:05:35 INFO     Epoch 38, train Loss: 104.51461 Training Accuracy: 96.07085970327027
+2024-04-25 21:05:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:05:51 INFO     Epoch 39, train Loss: 116.28371 Training Accuracy: 95.68328661974827
+2024-04-25 21:05:51 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:06:07 INFO     Epoch 40, train Loss: 93.90409 Training Accuracy: 96.00421603890855
+2024-04-25 21:06:07 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:06:08 INFO     EPOCH:40 original win_rate:0.7442385901491189 new win_rate:0.747464200477327
+2024-04-25 21:06:23 INFO     Epoch 41, train Loss: 101.33086 Training Accuracy: 96.92304783691681
+2024-04-25 21:06:23 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:06:39 INFO     Epoch 42, train Loss: 113.18935 Training Accuracy: 96.34168821163381
+2024-04-25 21:06:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:06:55 INFO     Epoch 43, train Loss: 95.96710 Training Accuracy: 95.72677042911903
+2024-04-25 21:06:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:07:11 INFO     Epoch 44, train Loss: 71.14758 Training Accuracy: 96.2481034914663
+2024-04-25 21:07:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:07:26 INFO     Epoch 45, train Loss: 509.10446 Training Accuracy: 96.82615456603631
+2024-04-25 21:07:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:07:42 INFO     Epoch 46, train Loss: 88.47433 Training Accuracy: 95.94844332688953
+2024-04-25 21:07:43 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:07:43 INFO     EPOCH:46 original win_rate:0.747464200477327 new win_rate:0.751205100295444
+2024-04-25 21:07:58 INFO     Epoch 47, train Loss: 93.75032 Training Accuracy: 96.4031327248751
+2024-04-25 21:07:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:08:14 INFO     Epoch 48, train Loss: 49.38180 Training Accuracy: 96.83088106705488
+2024-04-25 21:08:14 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:08:30 INFO     Epoch 49, train Loss: 13.48679 Training Accuracy: 99.05706304679708
+2024-04-25 21:08:30 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:08:46 INFO     Epoch 50, train Loss: 6.04677 Training Accuracy: 99.81850236088727
+2024-04-25 21:08:46 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:09:01 INFO     Epoch 51, train Loss: 5.30338 Training Accuracy: 99.86151352015617
+2024-04-25 21:09:02 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:09:17 INFO     Epoch 52, train Loss: 3.79631 Training Accuracy: 99.90925118044363
+2024-04-25 21:09:18 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:09:33 INFO     Epoch 53, train Loss: 3.16776 Training Accuracy: 99.89790757799908
+2024-04-25 21:09:33 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:09:49 INFO     Epoch 54, train Loss: 1.80685 Training Accuracy: 99.89318107698053
+2024-04-25 21:09:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:10:05 INFO     Epoch 55, train Loss: 1.90046 Training Accuracy: 99.9333563356383
+2024-04-25 21:10:05 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:10:21 INFO     Epoch 56, train Loss: 3.16233 Training Accuracy: 99.8600955698506
+2024-04-25 21:10:21 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:10:37 INFO     Epoch 57, train Loss: 1.89571 Training Accuracy: 99.934301635842
+2024-04-25 21:10:37 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:10:52 INFO     Epoch 58, train Loss: 1.39737 Training Accuracy: 99.9461178883884
+2024-04-25 21:10:53 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:11:08 INFO     Epoch 59, train Loss: 1.38424 Training Accuracy: 99.94753583869398
+2024-04-25 21:11:09 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:11:24 INFO     Epoch 60, train Loss: 1.16436 Training Accuracy: 99.96596919266636
+2024-04-25 21:11:25 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:11:40 INFO     Epoch 61, train Loss: 1.12282 Training Accuracy: 99.94139138736985
+2024-04-25 21:11:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:11:56 INFO     Epoch 62, train Loss: 1.00707 Training Accuracy: 99.95935209124038
+2024-04-25 21:11:56 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:12:12 INFO     Epoch 63, train Loss: 1.75147 Training Accuracy: 99.95226233971253
+2024-04-25 21:12:12 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:12:28 INFO     Epoch 64, train Loss: 1.00903 Training Accuracy: 99.9257939340086
+2024-04-25 21:12:28 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:12:44 INFO     Epoch 65, train Loss: 1.03121 Training Accuracy: 99.96171534174965
+2024-04-25 21:12:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:12:59 INFO     Epoch 66, train Loss: 0.72775 Training Accuracy: 99.97494954460163
+2024-04-25 21:13:00 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:13:15 INFO     Epoch 67, train Loss: 0.80620 Training Accuracy: 99.9721136439905
+2024-04-25 21:13:16 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:13:31 INFO     Epoch 68, train Loss: 0.88375 Training Accuracy: 99.96502389246265
+2024-04-25 21:13:32 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:13:47 INFO     Epoch 69, train Loss: 0.80781 Training Accuracy: 99.97258629409235
+2024-04-25 21:13:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:14:03 INFO     Epoch 70, train Loss: 0.66774 Training Accuracy: 99.97494954460163
+2024-04-25 21:14:03 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:14:19 INFO     Epoch 71, train Loss: 0.91840 Training Accuracy: 99.96596919266636
+2024-04-25 21:14:19 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:14:35 INFO     Epoch 72, train Loss: 0.80057 Training Accuracy: 99.96833244317564
+2024-04-25 21:14:35 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:14:51 INFO     Epoch 73, train Loss: 1.11104 Training Accuracy: 99.97116834378677
+2024-04-25 21:14:51 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:15:06 INFO     Epoch 74, train Loss: 0.72654 Training Accuracy: 99.97447689449977
+2024-04-25 21:15:07 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:15:22 INFO     Epoch 75, train Loss: 0.67378 Training Accuracy: 99.9688050932775
+2024-04-25 21:15:23 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:15:38 INFO     Epoch 76, train Loss: 2.59979 Training Accuracy: 99.96927774337935
+2024-04-25 21:15:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:15:54 INFO     Epoch 77, train Loss: 2.47009 Training Accuracy: 99.97825809531462
+2024-04-25 21:15:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:16:10 INFO     Epoch 78, train Loss: 0.57506 Training Accuracy: 99.98014869572205
+2024-04-25 21:16:10 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:16:26 INFO     Epoch 79, train Loss: 0.46771 Training Accuracy: 99.97542219470348
+2024-04-25 21:16:26 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:16:41 INFO     Epoch 80, train Loss: 0.73811 Training Accuracy: 99.98156664602762
+2024-04-25 21:16:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:16:57 INFO     Epoch 81, train Loss: 1.07802 Training Accuracy: 99.97873074541647
+2024-04-25 21:16:58 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:17:13 INFO     Epoch 82, train Loss: 0.96540 Training Accuracy: 99.97589484480534
+2024-04-25 21:17:14 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:17:29 INFO     Epoch 83, train Loss: 0.61148 Training Accuracy: 99.9721136439905
+2024-04-25 21:17:30 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:17:45 INFO     Epoch 84, train Loss: 0.72780 Training Accuracy: 99.96029739144409
+2024-04-25 21:17:45 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:18:01 INFO     Epoch 85, train Loss: 3.77201 Training Accuracy: 99.95651619062924
+2024-04-25 21:18:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:18:17 INFO     Epoch 86, train Loss: 0.47704 Training Accuracy: 99.97164099388863
+2024-04-25 21:18:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:18:32 INFO     Epoch 87, train Loss: 0.42188 Training Accuracy: 99.97589484480534
+2024-04-25 21:18:33 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:18:48 INFO     Epoch 88, train Loss: 0.43715 Training Accuracy: 99.97258629409235
+2024-04-25 21:18:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:19:04 INFO     Epoch 89, train Loss: 0.40262 Training Accuracy: 99.9881837474536
+2024-04-25 21:19:05 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:19:20 INFO     Epoch 90, train Loss: 0.78939 Training Accuracy: 99.98392989653689
+2024-04-25 21:19:21 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:19:36 INFO     Epoch 91, train Loss: 0.26434 Training Accuracy: 99.9806213458239
+2024-04-25 21:19:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:19:52 INFO     Epoch 92, train Loss: 0.29913 Training Accuracy: 99.98156664602762
+2024-04-25 21:19:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:20:08 INFO     Epoch 93, train Loss: 0.60266 Training Accuracy: 99.98156664602762
+2024-04-25 21:20:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:20:24 INFO     Epoch 94, train Loss: 1.25216 Training Accuracy: 99.97400424439792
+2024-04-25 21:20:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:20:39 INFO     Epoch 95, train Loss: 0.33200 Training Accuracy: 99.98960169775917
+2024-04-25 21:20:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:20:55 INFO     Epoch 96, train Loss: 19.02208 Training Accuracy: 99.97920339551833
+2024-04-25 21:20:56 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:21:11 INFO     Epoch 97, train Loss: 0.36739 Training Accuracy: 99.97400424439792
+2024-04-25 21:21:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:21:27 INFO     Epoch 98, train Loss: 0.30134 Training Accuracy: 99.97825809531462
+2024-04-25 21:21:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:21:43 INFO     Epoch 99, train Loss: 0.21474 Training Accuracy: 99.97305894419421
+2024-04-25 21:21:43 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:21:59 INFO     Epoch 100, train Loss: 0.20925 Training Accuracy: 99.98676579714802
+2024-04-25 21:21:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:22:14 INFO     Epoch 101, train Loss: 0.26407 Training Accuracy: 99.98156664602762
+2024-04-25 21:22:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:22:30 INFO     Epoch 102, train Loss: 0.22818 Training Accuracy: 99.99385554867587
+2024-04-25 21:22:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:22:46 INFO     Epoch 103, train Loss: 0.25130 Training Accuracy: 99.97400424439792
+2024-04-25 21:22:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:23:02 INFO     Epoch 104, train Loss: 0.27204 Training Accuracy: 99.9924375983703
+2024-04-25 21:23:03 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:23:18 INFO     Epoch 105, train Loss: 0.22083 Training Accuracy: 99.99291024847216
+2024-04-25 21:23:18 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:23:34 INFO     Epoch 106, train Loss: 0.19445 Training Accuracy: 99.99054699796288
+2024-04-25 21:23:34 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:23:50 INFO     Epoch 107, train Loss: 0.19183 Training Accuracy: 99.99054699796288
+2024-04-25 21:23:50 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:24:06 INFO     Epoch 108, train Loss: 0.26894 Training Accuracy: 99.99196494826845
+2024-04-25 21:24:06 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:24:21 INFO     Epoch 109, train Loss: 0.22324 Training Accuracy: 99.99527349898143
+2024-04-25 21:24:22 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:24:37 INFO     Epoch 110, train Loss: 0.16347 Training Accuracy: 99.99196494826845
+2024-04-25 21:24:38 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:24:53 INFO     Epoch 111, train Loss: 0.26624 Training Accuracy: 99.99385554867587
+2024-04-25 21:24:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:25:09 INFO     Epoch 112, train Loss: 0.16356 Training Accuracy: 99.99480084887958
+2024-04-25 21:25:09 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:25:25 INFO     Epoch 113, train Loss: 0.16573 Training Accuracy: 99.9924375983703
+2024-04-25 21:25:25 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:25:41 INFO     Epoch 114, train Loss: 0.15782 Training Accuracy: 99.99432819877772
+2024-04-25 21:25:41 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:25:57 INFO     Epoch 115, train Loss: 0.22542 Training Accuracy: 99.99385554867587
+2024-04-25 21:25:57 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:26:13 INFO     Epoch 116, train Loss: 0.15021 Training Accuracy: 99.99432819877772
+2024-04-25 21:26:13 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:26:28 INFO     Epoch 117, train Loss: 0.16321 Training Accuracy: 99.99527349898143
+2024-04-25 21:26:29 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:26:44 INFO     Epoch 118, train Loss: 0.13104 Training Accuracy: 99.99669144928701
+2024-04-25 21:26:45 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:27:00 INFO     Epoch 119, train Loss: 0.19807 Training Accuracy: 99.9806213458239
+2024-04-25 21:27:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:27:16 INFO     Epoch 120, train Loss: 0.13808 Training Accuracy: 99.99291024847216
+2024-04-25 21:27:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:27:32 INFO     Epoch 121, train Loss: 0.14538 Training Accuracy: 99.99621879918516
+2024-04-25 21:27:32 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:27:48 INFO     Epoch 122, train Loss: 0.13459 Training Accuracy: 99.99385554867587
+2024-04-25 21:27:48 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:28:04 INFO     Epoch 123, train Loss: 0.20650 Training Accuracy: 99.99574614908329
+2024-04-25 21:28:04 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:28:19 INFO     Epoch 124, train Loss: 0.15446 Training Accuracy: 99.99574614908329
+2024-04-25 21:28:20 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:28:35 INFO     Epoch 125, train Loss: 0.13444 Training Accuracy: 99.99574614908329
+2024-04-25 21:28:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:28:51 INFO     Epoch 126, train Loss: 0.22009 Training Accuracy: 99.99385554867587
+2024-04-25 21:28:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:29:07 INFO     Epoch 127, train Loss: 0.14030 Training Accuracy: 99.99621879918516
+2024-04-25 21:29:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:29:23 INFO     Epoch 128, train Loss: 0.13107 Training Accuracy: 99.99621879918516
+2024-04-25 21:29:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:29:39 INFO     Epoch 129, train Loss: 0.12270 Training Accuracy: 99.9924375983703
+2024-04-25 21:29:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:29:55 INFO     Epoch 130, train Loss: 0.15010 Training Accuracy: 99.99338289857401
+2024-04-25 21:29:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:30:11 INFO     Epoch 131, train Loss: 0.13062 Training Accuracy: 99.99480084887958
+2024-04-25 21:30:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:30:27 INFO     Epoch 132, train Loss: 0.15098 Training Accuracy: 99.99432819877772
+2024-04-25 21:30:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:30:42 INFO     Epoch 133, train Loss: 0.11490 Training Accuracy: 99.99763674949072
+2024-04-25 21:30:43 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:30:58 INFO     Epoch 134, train Loss: 0.14444 Training Accuracy: 99.99385554867587
+2024-04-25 21:30:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:31:14 INFO     Epoch 135, train Loss: 0.15946 Training Accuracy: 99.99858204969443
+2024-04-25 21:31:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:31:30 INFO     Epoch 136, train Loss: 0.13145 Training Accuracy: 99.99716409938887
+2024-04-25 21:31:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:31:46 INFO     Epoch 137, train Loss: 0.13192 Training Accuracy: 99.99338289857401
+2024-04-25 21:31:46 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:32:02 INFO     Epoch 138, train Loss: 0.10242 Training Accuracy: 99.99432819877772
+2024-04-25 21:32:02 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:32:18 INFO     Epoch 139, train Loss: 0.11953 Training Accuracy: 99.99149229816659
+2024-04-25 21:32:18 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:32:34 INFO     Epoch 140, train Loss: 0.17386 Training Accuracy: 99.99669144928701
+2024-04-25 21:32:34 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:32:50 INFO     Epoch 141, train Loss: 0.12832 Training Accuracy: 99.99716409938887
+2024-04-25 21:32:50 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:33:05 INFO     Epoch 142, train Loss: 0.11885 Training Accuracy: 99.99669144928701
+2024-04-25 21:33:06 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:33:21 INFO     Epoch 143, train Loss: 0.12488 Training Accuracy: 99.99810939959258
+2024-04-25 21:33:22 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:33:37 INFO     Epoch 144, train Loss: 0.13906 Training Accuracy: 99.99621879918516
+2024-04-25 21:33:38 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:33:53 INFO     Epoch 145, train Loss: 0.10850 Training Accuracy: 99.99716409938887
+2024-04-25 21:33:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:34:09 INFO     Epoch 146, train Loss: 0.11019 Training Accuracy: 99.99810939959258
+2024-04-25 21:34:09 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:34:25 INFO     Epoch 147, train Loss: 0.12464 Training Accuracy: 99.99716409938887
+2024-04-25 21:34:25 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:34:41 INFO     Epoch 148, train Loss: 0.13543 Training Accuracy: 99.99338289857401
+2024-04-25 21:34:41 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:34:57 INFO     Epoch 149, train Loss: 13.40147 Training Accuracy: 99.99385554867587
+2024-04-25 21:34:57 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:35:13 INFO     Epoch 150, train Loss: 0.13378 Training Accuracy: 99.99763674949072
+2024-04-25 21:35:13 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:35:29 INFO     Epoch 151, train Loss: 0.11419 Training Accuracy: 99.99716409938887
+2024-04-25 21:35:29 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:35:44 INFO     Epoch 152, train Loss: 0.10766 Training Accuracy: 99.99669144928701
+2024-04-25 21:35:45 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:36:00 INFO     Epoch 153, train Loss: 0.11317 Training Accuracy: 99.99810939959258
+2024-04-25 21:36:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:36:16 INFO     Epoch 154, train Loss: 0.11241 Training Accuracy: 99.99669144928701
+2024-04-25 21:36:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:36:32 INFO     Epoch 155, train Loss: 0.11631 Training Accuracy: 99.98912904765731
+2024-04-25 21:36:32 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:36:48 INFO     Epoch 156, train Loss: 0.09823 Training Accuracy: 99.99763674949072
+2024-04-25 21:36:48 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:37:04 INFO     Epoch 157, train Loss: 0.09906 Training Accuracy: 99.99621879918516
+2024-04-25 21:37:04 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:37:20 INFO     Epoch 158, train Loss: 1.51370 Training Accuracy: 99.99810939959258
+2024-04-25 21:37:20 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:37:35 INFO     Epoch 159, train Loss: 0.11818 Training Accuracy: 99.99669144928701
+2024-04-25 21:37:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:37:51 INFO     Epoch 160, train Loss: 0.09386 Training Accuracy: 99.99716409938887
+2024-04-25 21:37:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:38:07 INFO     Epoch 161, train Loss: 0.11873 Training Accuracy: 99.99574614908329
+2024-04-25 21:38:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:38:23 INFO     Epoch 162, train Loss: 0.10703 Training Accuracy: 99.99858204969443
+2024-04-25 21:38:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:38:39 INFO     Epoch 163, train Loss: 0.10456 Training Accuracy: 99.99432819877772
+2024-04-25 21:38:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:38:55 INFO     Epoch 164, train Loss: 0.11025 Training Accuracy: 99.99810939959258
+2024-04-25 21:38:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:39:11 INFO     Epoch 165, train Loss: 0.12555 Training Accuracy: 99.99810939959258
+2024-04-25 21:39:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:39:27 INFO     Epoch 166, train Loss: 0.13381 Training Accuracy: 99.99669144928701
+2024-04-25 21:39:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:39:43 INFO     Epoch 167, train Loss: 0.13045 Training Accuracy: 99.99480084887958
+2024-04-25 21:39:43 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:39:59 INFO     Epoch 168, train Loss: 0.11061 Training Accuracy: 99.99716409938887
+2024-04-25 21:39:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:40:14 INFO     Epoch 169, train Loss: 0.09330 Training Accuracy: 99.99810939959258
+2024-04-25 21:40:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:40:30 INFO     Epoch 170, train Loss: 0.10982 Training Accuracy: 99.99480084887958
+2024-04-25 21:40:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:40:46 INFO     Epoch 171, train Loss: 0.09907 Training Accuracy: 99.99810939959258
+2024-04-25 21:40:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:41:02 INFO     Epoch 172, train Loss: 0.11954 Training Accuracy: 99.99952734989814
+2024-04-25 21:41:02 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:41:18 INFO     Epoch 173, train Loss: 0.10087 Training Accuracy: 99.99574614908329
+2024-04-25 21:41:18 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:41:34 INFO     Epoch 174, train Loss: 0.09291 Training Accuracy: 99.99763674949072
+2024-04-25 21:41:34 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:41:50 INFO     Epoch 175, train Loss: 0.10625 Training Accuracy: 99.99763674949072
+2024-04-25 21:41:50 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:42:06 INFO     Epoch 176, train Loss: 0.13445 Training Accuracy: 99.99858204969443
+2024-04-25 21:42:06 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:42:21 INFO     Epoch 177, train Loss: 0.07779 Training Accuracy: 99.99763674949072
+2024-04-25 21:42:22 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:42:37 INFO     Epoch 178, train Loss: 0.12143 Training Accuracy: 99.99810939959258
+2024-04-25 21:42:38 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:42:53 INFO     Epoch 179, train Loss: 0.09417 Training Accuracy: 99.99763674949072
+2024-04-25 21:42:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:43:09 INFO     Epoch 180, train Loss: 0.11387 Training Accuracy: 99.99385554867587
+2024-04-25 21:43:10 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:43:25 INFO     Epoch 181, train Loss: 0.12742 Training Accuracy: 99.99716409938887
+2024-04-25 21:43:26 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:43:41 INFO     Epoch 182, train Loss: 0.11510 Training Accuracy: 99.99810939959258
+2024-04-25 21:43:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:43:57 INFO     Epoch 183, train Loss: 0.09764 Training Accuracy: 99.99669144928701
+2024-04-25 21:43:57 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:44:13 INFO     Epoch 184, train Loss: 0.09619 Training Accuracy: 99.99763674949072
+2024-04-25 21:44:13 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:44:29 INFO     Epoch 185, train Loss: 0.18172 Training Accuracy: 99.99716409938887
+2024-04-25 21:44:29 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:44:45 INFO     Epoch 186, train Loss: 0.08798 Training Accuracy: 99.99905469979629
+2024-04-25 21:44:45 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:45:00 INFO     Epoch 187, train Loss: 0.11825 Training Accuracy: 99.99149229816659
+2024-04-25 21:45:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:45:16 INFO     Epoch 188, train Loss: 0.14042 Training Accuracy: 99.99952734989814
+2024-04-25 21:45:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:45:32 INFO     Epoch 189, train Loss: 0.11314 Training Accuracy: 99.99763674949072
+2024-04-25 21:45:33 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:45:48 INFO     Epoch 190, train Loss: 1.48311 Training Accuracy: 99.99858204969443
+2024-04-25 21:45:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:46:04 INFO     Epoch 191, train Loss: 0.10270 Training Accuracy: 99.99905469979629
+2024-04-25 21:46:04 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:46:20 INFO     Epoch 192, train Loss: 0.10099 Training Accuracy: 99.99480084887958
+2024-04-25 21:46:20 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:46:36 INFO     Epoch 193, train Loss: 0.10498 Training Accuracy: 99.99669144928701
+2024-04-25 21:46:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:46:52 INFO     Epoch 194, train Loss: 0.11901 Training Accuracy: 99.99810939959258
+2024-04-25 21:46:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:47:08 INFO     Epoch 195, train Loss: 0.10351 Training Accuracy: 99.99338289857401
+2024-04-25 21:47:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:47:24 INFO     Epoch 196, train Loss: 1.32463 Training Accuracy: 99.99810939959258
+2024-04-25 21:47:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:47:40 INFO     Epoch 197, train Loss: 0.11291 Training Accuracy: 99.99621879918516
+2024-04-25 21:47:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:47:55 INFO     Epoch 198, train Loss: 0.14169 Training Accuracy: 99.99858204969443
+2024-04-25 21:47:56 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:48:11 INFO     Epoch 199, train Loss: 0.09505 Training Accuracy: 99.99669144928701
+2024-04-25 21:48:12 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:48:27 INFO     Epoch 200, train Loss: 0.10457 Training Accuracy: 99.99763674949072
+2024-04-25 21:48:28 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:48:43 INFO     Epoch 201, train Loss: 0.10459 Training Accuracy: 99.99858204969443
+2024-04-25 21:48:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:48:59 INFO     Epoch 202, train Loss: 0.10448 Training Accuracy: 99.99763674949072
+2024-04-25 21:48:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:49:15 INFO     Epoch 203, train Loss: 0.11400 Training Accuracy: 99.99810939959258
+2024-04-25 21:49:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:49:31 INFO     Epoch 204, train Loss: 0.10794 Training Accuracy: 99.99527349898143
+2024-04-25 21:49:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:49:47 INFO     Epoch 205, train Loss: 0.09199 Training Accuracy: 99.99716409938887
+2024-04-25 21:49:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:50:03 INFO     Epoch 206, train Loss: 0.09960 Training Accuracy: 99.99905469979629
+2024-04-25 21:50:04 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:50:19 INFO     Epoch 207, train Loss: 0.11322 Training Accuracy: 99.99669144928701
+2024-04-25 21:50:20 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:50:36 INFO     Epoch 208, train Loss: 0.11678 Training Accuracy: 99.99621879918516
+2024-04-25 21:50:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:50:52 INFO     Epoch 209, train Loss: 0.11547 Training Accuracy: 99.99621879918516
+2024-04-25 21:50:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:51:08 INFO     Epoch 210, train Loss: 0.12666 Training Accuracy: 99.99669144928701
+2024-04-25 21:51:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:51:24 INFO     Epoch 211, train Loss: 0.10650 Training Accuracy: 99.99621879918516
+2024-04-25 21:51:25 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:51:40 INFO     Epoch 212, train Loss: 0.12036 Training Accuracy: 99.99858204969443
+2024-04-25 21:51:41 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:51:56 INFO     Epoch 213, train Loss: 0.10234 Training Accuracy: 99.99905469979629
+2024-04-25 21:51:57 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:52:12 INFO     Epoch 214, train Loss: 0.13170 Training Accuracy: 99.99952734989814
+2024-04-25 21:52:13 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:52:28 INFO     Epoch 215, train Loss: 0.09723 Training Accuracy: 99.99810939959258
+2024-04-25 21:52:29 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:52:44 INFO     Epoch 216, train Loss: 0.10658 Training Accuracy: 99.99905469979629
+2024-04-25 21:52:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:53:00 INFO     Epoch 217, train Loss: 0.15000 Training Accuracy: 99.99621879918516
+2024-04-25 21:53:00 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:53:16 INFO     Epoch 218, train Loss: 0.09876 Training Accuracy: 99.99858204969443
+2024-04-25 21:53:16 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:53:32 INFO     Epoch 219, train Loss: 0.13123 Training Accuracy: 99.99858204969443
+2024-04-25 21:53:32 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:53:47 INFO     Epoch 220, train Loss: 0.12785 Training Accuracy: 99.99763674949072
+2024-04-25 21:53:48 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:54:03 INFO     Epoch 221, train Loss: 0.11257 Training Accuracy: 99.99763674949072
+2024-04-25 21:54:04 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:54:19 INFO     Epoch 222, train Loss: 0.12549 Training Accuracy: 99.99763674949072
+2024-04-25 21:54:20 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:54:35 INFO     Epoch 223, train Loss: 0.12937 Training Accuracy: 99.99763674949072
+2024-04-25 21:54:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:54:51 INFO     Epoch 224, train Loss: 0.14636 Training Accuracy: 99.99858204969443
+2024-04-25 21:54:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:55:07 INFO     Epoch 225, train Loss: 0.10134 Training Accuracy: 99.99810939959258
+2024-04-25 21:55:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:55:23 INFO     Epoch 226, train Loss: 0.11108 Training Accuracy: 99.99810939959258
+2024-04-25 21:55:23 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:55:39 INFO     Epoch 227, train Loss: 0.10783 Training Accuracy: 99.99858204969443
+2024-04-25 21:55:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:55:55 INFO     Epoch 228, train Loss: 0.14168 Training Accuracy: 99.99905469979629
+2024-04-25 21:55:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:56:11 INFO     Epoch 229, train Loss: 0.17370 Training Accuracy: 99.99810939959258
+2024-04-25 21:56:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:56:27 INFO     Epoch 230, train Loss: 0.09613 Training Accuracy: 99.98392989653689
+2024-04-25 21:56:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:56:43 INFO     Epoch 231, train Loss: 0.10367 Training Accuracy: 99.99858204969443
+2024-04-25 21:56:43 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:56:58 INFO     Epoch 232, train Loss: 0.13425 Training Accuracy: 99.99716409938887
+2024-04-25 21:56:59 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:57:14 INFO     Epoch 233, train Loss: 0.09514 Training Accuracy: 99.99621879918516
+2024-04-25 21:57:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:57:30 INFO     Epoch 234, train Loss: 0.10342 Training Accuracy: 99.99810939959258
+2024-04-25 21:57:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:57:46 INFO     Epoch 235, train Loss: 0.09459 Training Accuracy: 99.99669144928701
+2024-04-25 21:57:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:58:02 INFO     Epoch 236, train Loss: 0.17536 Training Accuracy: 99.99763674949072
+2024-04-25 21:58:02 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:58:18 INFO     Epoch 237, train Loss: 0.10002 Training Accuracy: 99.99621879918516
+2024-04-25 21:58:18 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:58:34 INFO     Epoch 238, train Loss: 0.09697 Training Accuracy: 99.99763674949072
+2024-04-25 21:58:34 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:58:50 INFO     Epoch 239, train Loss: 0.15782 Training Accuracy: 99.99054699796288
+2024-04-25 21:58:50 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:59:06 INFO     Epoch 240, train Loss: 0.11489 Training Accuracy: 99.99716409938887
+2024-04-25 21:59:06 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:59:22 INFO     Epoch 241, train Loss: 0.09291 Training Accuracy: 99.99669144928701
+2024-04-25 21:59:22 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:59:38 INFO     Epoch 242, train Loss: 0.09748 Training Accuracy: 99.99905469979629
+2024-04-25 21:59:38 INFO     validate label len:19966 validate data len:19966
+2024-04-25 21:59:53 INFO     Epoch 243, train Loss: 112.63297 Training Accuracy: 99.98345724643504
+2024-04-25 21:59:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:00:09 INFO     Epoch 244, train Loss: 0.09612 Training Accuracy: 99.99527349898143
+2024-04-25 22:00:10 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:00:25 INFO     Epoch 245, train Loss: 0.09472 Training Accuracy: 99.99858204969443
+2024-04-25 22:00:26 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:00:41 INFO     Epoch 246, train Loss: 0.13339 Training Accuracy: 99.99810939959258
+2024-04-25 22:00:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:00:57 INFO     Epoch 247, train Loss: 0.09150 Training Accuracy: 99.99669144928701
+2024-04-25 22:00:57 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:01:13 INFO     Epoch 248, train Loss: 0.08547 Training Accuracy: 99.99763674949072
+2024-04-25 22:01:13 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:01:29 INFO     Epoch 249, train Loss: 0.10509 Training Accuracy: 99.99763674949072
+2024-04-25 22:01:29 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:01:45 INFO     Epoch 250, train Loss: 0.14062 Training Accuracy: 99.99905469979629
+2024-04-25 22:01:45 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:02:00 INFO     Epoch 251, train Loss: 0.12730 Training Accuracy: 99.99669144928701
+2024-04-25 22:02:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:02:16 INFO     Epoch 252, train Loss: 12.32542 Training Accuracy: 99.99763674949072
+2024-04-25 22:02:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:02:32 INFO     Epoch 253, train Loss: 0.11191 Training Accuracy: 99.99763674949072
+2024-04-25 22:02:33 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:02:48 INFO     Epoch 254, train Loss: 0.10500 Training Accuracy: 99.99763674949072
+2024-04-25 22:02:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:03:04 INFO     Epoch 255, train Loss: 0.08866 Training Accuracy: 99.99810939959258
+2024-04-25 22:03:05 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:03:20 INFO     Epoch 256, train Loss: 0.10921 Training Accuracy: 99.99716409938887
+2024-04-25 22:03:21 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:03:36 INFO     Epoch 257, train Loss: 0.14554 Training Accuracy: 99.99858204969443
+2024-04-25 22:03:36 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:03:52 INFO     Epoch 258, train Loss: 0.17145 Training Accuracy: 99.98676579714802
+2024-04-25 22:03:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:04:08 INFO     Epoch 259, train Loss: 0.08310 Training Accuracy: 99.99621879918516
+2024-04-25 22:04:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:04:24 INFO     Epoch 260, train Loss: 0.09935 Training Accuracy: 99.99716409938887
+2024-04-25 22:04:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:04:40 INFO     Epoch 261, train Loss: 0.15874 Training Accuracy: 99.99716409938887
+2024-04-25 22:04:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:04:55 INFO     Epoch 262, train Loss: 0.09393 Training Accuracy: 99.99952734989814
+2024-04-25 22:04:56 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:05:11 INFO     Epoch 263, train Loss: 0.10058 Training Accuracy: 99.99952734989814
+2024-04-25 22:05:12 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:05:27 INFO     Epoch 264, train Loss: 0.10698 Training Accuracy: 99.99716409938887
+2024-04-25 22:05:28 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:05:43 INFO     Epoch 265, train Loss: 0.12376 Training Accuracy: 99.99763674949072
+2024-04-25 22:05:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:05:59 INFO     Epoch 266, train Loss: 0.07259 Training Accuracy: 99.99669144928701
+2024-04-25 22:06:00 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:06:15 INFO     Epoch 267, train Loss: 0.08946 Training Accuracy: 99.99669144928701
+2024-04-25 22:06:15 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:06:31 INFO     Epoch 268, train Loss: 0.11788 Training Accuracy: 99.99905469979629
+2024-04-25 22:06:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:06:47 INFO     Epoch 269, train Loss: 0.13213 Training Accuracy: 99.99669144928701
+2024-04-25 22:06:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:07:03 INFO     Epoch 270, train Loss: 0.13589 Training Accuracy: 99.99621879918516
+2024-04-25 22:07:03 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:07:18 INFO     Epoch 271, train Loss: 0.10853 Training Accuracy: 99.99621879918516
+2024-04-25 22:07:19 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:07:34 INFO     Epoch 272, train Loss: 0.09000 Training Accuracy: 99.99858204969443
+2024-04-25 22:07:35 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:07:50 INFO     Epoch 273, train Loss: 0.09666 Training Accuracy: 99.99858204969443
+2024-04-25 22:07:51 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:08:06 INFO     Epoch 274, train Loss: 0.11542 Training Accuracy: 99.99716409938887
+2024-04-25 22:08:07 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:08:22 INFO     Epoch 275, train Loss: 0.08544 Training Accuracy: 99.99858204969443
+2024-04-25 22:08:22 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:08:38 INFO     Epoch 276, train Loss: 0.10281 Training Accuracy: 99.99669144928701
+2024-04-25 22:08:38 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:08:54 INFO     Epoch 277, train Loss: 0.09631 Training Accuracy: 99.99952734989814
+2024-04-25 22:08:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:09:10 INFO     Epoch 278, train Loss: 0.10142 Training Accuracy: 99.99810939959258
+2024-04-25 22:09:10 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:09:26 INFO     Epoch 279, train Loss: 0.08932 Training Accuracy: 99.99905469979629
+2024-04-25 22:09:26 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:09:41 INFO     Epoch 280, train Loss: 0.09684 Training Accuracy: 99.99810939959258
+2024-04-25 22:09:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:09:57 INFO     Epoch 281, train Loss: 0.10439 Training Accuracy: 99.99716409938887
+2024-04-25 22:09:58 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:10:13 INFO     Epoch 282, train Loss: 0.12140 Training Accuracy: 99.99669144928701
+2024-04-25 22:10:14 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:10:29 INFO     Epoch 283, train Loss: 0.52604 Training Accuracy: 99.99716409938887
+2024-04-25 22:10:30 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:10:45 INFO     Epoch 284, train Loss: 0.12298 Training Accuracy: 99.99858204969443
+2024-04-25 22:10:45 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:11:01 INFO     Epoch 285, train Loss: 0.08071 Training Accuracy: 99.99810939959258
+2024-04-25 22:11:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:11:17 INFO     Epoch 286, train Loss: 0.11187 Training Accuracy: 99.99763674949072
+2024-04-25 22:11:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:11:33 INFO     Epoch 287, train Loss: 0.11747 Training Accuracy: 99.99716409938887
+2024-04-25 22:11:33 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:11:49 INFO     Epoch 288, train Loss: 0.08949 Training Accuracy: 99.99858204969443
+2024-04-25 22:11:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:12:05 INFO     Epoch 289, train Loss: 0.11256 Training Accuracy: 99.99858204969443
+2024-04-25 22:12:05 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:12:20 INFO     Epoch 290, train Loss: 0.13178 Training Accuracy: 99.99716409938887
+2024-04-25 22:12:21 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:12:36 INFO     Epoch 291, train Loss: 3.67278 Training Accuracy: 99.99716409938887
+2024-04-25 22:12:37 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:12:52 INFO     Epoch 292, train Loss: 0.09209 Training Accuracy: 99.99858204969443
+2024-04-25 22:12:52 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:13:08 INFO     Epoch 293, train Loss: 0.11009 Training Accuracy: 99.99763674949072
+2024-04-25 22:13:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:13:24 INFO     Epoch 294, train Loss: 0.13920 Training Accuracy: 99.99669144928701
+2024-04-25 22:13:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:13:40 INFO     Epoch 295, train Loss: 0.14314 Training Accuracy: 99.99716409938887
+2024-04-25 22:13:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:13:56 INFO     Epoch 296, train Loss: 0.11299 Training Accuracy: 99.99763674949072
+2024-04-25 22:13:56 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:14:12 INFO     Epoch 297, train Loss: 0.14538 Training Accuracy: 99.99621879918516
+2024-04-25 22:14:12 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:14:27 INFO     Epoch 298, train Loss: 0.10912 Training Accuracy: 99.99716409938887
+2024-04-25 22:14:28 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:14:43 INFO     Epoch 299, train Loss: 0.12118 Training Accuracy: 99.99858204969443
+2024-04-25 22:14:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:14:59 INFO     Epoch 300, train Loss: 2.67744 Training Accuracy: 99.99905469979629
+2024-04-25 22:15:00 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:15:15 INFO     Epoch 301, train Loss: 0.11161 Training Accuracy: 99.99763674949072
+2024-04-25 22:15:16 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:15:31 INFO     Epoch 302, train Loss: 0.10564 Training Accuracy: 99.99905469979629
+2024-04-25 22:15:31 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:15:47 INFO     Epoch 303, train Loss: 0.08499 Training Accuracy: 99.99716409938887
+2024-04-25 22:15:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:16:03 INFO     Epoch 304, train Loss: 0.10322 Training Accuracy: 99.99858204969443
+2024-04-25 22:16:03 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:16:19 INFO     Epoch 305, train Loss: 0.10118 Training Accuracy: 99.99716409938887
+2024-04-25 22:16:19 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:16:34 INFO     Epoch 306, train Loss: 0.10457 Training Accuracy: 99.99763674949072
+2024-04-25 22:16:35 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:16:50 INFO     Epoch 307, train Loss: 0.10793 Training Accuracy: 99.99669144928701
+2024-04-25 22:16:51 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:17:06 INFO     Epoch 308, train Loss: 0.10298 Training Accuracy: 99.9848751967406
+2024-04-25 22:17:07 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:17:22 INFO     Epoch 309, train Loss: 0.08560 Training Accuracy: 99.99432819877772
+2024-04-25 22:17:22 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:17:38 INFO     Epoch 310, train Loss: 0.10474 Training Accuracy: 99.99810939959258
+2024-04-25 22:17:38 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:17:54 INFO     Epoch 311, train Loss: 0.11099 Training Accuracy: 99.99716409938887
+2024-04-25 22:17:54 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:18:10 INFO     Epoch 312, train Loss: 0.11501 Training Accuracy: 99.99621879918516
+2024-04-25 22:18:10 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:18:26 INFO     Epoch 313, train Loss: 3.04391 Training Accuracy: 99.99621879918516
+2024-04-25 22:18:26 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:18:42 INFO     Epoch 314, train Loss: 0.10582 Training Accuracy: 99.99952734989814
+2024-04-25 22:18:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:18:57 INFO     Epoch 315, train Loss: 0.09602 Training Accuracy: 99.99952734989814
+2024-04-25 22:18:58 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:19:13 INFO     Epoch 316, train Loss: 0.12560 Training Accuracy: 99.99621879918516
+2024-04-25 22:19:14 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:19:29 INFO     Epoch 317, train Loss: 0.11386 Training Accuracy: 99.99669144928701
+2024-04-25 22:19:30 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:19:45 INFO     Epoch 318, train Loss: 0.08836 Training Accuracy: 99.99905469979629
+2024-04-25 22:19:46 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:20:01 INFO     Epoch 319, train Loss: 0.12515 Training Accuracy: 99.99905469979629
+2024-04-25 22:20:01 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:20:17 INFO     Epoch 320, train Loss: 0.10421 Training Accuracy: 99.99952734989814
+2024-04-25 22:20:17 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:20:33 INFO     Epoch 321, train Loss: 0.10558 Training Accuracy: 99.99810939959258
+2024-04-25 22:20:33 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:20:49 INFO     Epoch 322, train Loss: 0.10297 Training Accuracy: 99.99810939959258
+2024-04-25 22:20:49 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:21:04 INFO     Epoch 323, train Loss: 0.11162 Training Accuracy: 99.99669144928701
+2024-04-25 22:21:05 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:21:20 INFO     Epoch 324, train Loss: 0.12536 Training Accuracy: 99.99905469979629
+2024-04-25 22:21:21 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:21:36 INFO     Epoch 325, train Loss: 11.76328 Training Accuracy: 99.9924375983703
+2024-04-25 22:21:37 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:21:52 INFO     Epoch 326, train Loss: 0.10132 Training Accuracy: 99.99574614908329
+2024-04-25 22:21:53 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:22:08 INFO     Epoch 327, train Loss: 0.12649 Training Accuracy: 99.99480084887958
+2024-04-25 22:22:08 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:22:24 INFO     Epoch 328, train Loss: 0.09390 Training Accuracy: 99.99716409938887
+2024-04-25 22:22:24 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:22:40 INFO     Epoch 329, train Loss: 0.11687 Training Accuracy: 99.99858204969443
+2024-04-25 22:22:40 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:22:56 INFO     Epoch 330, train Loss: 0.10931 Training Accuracy: 99.99810939959258
+2024-04-25 22:22:56 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:23:12 INFO     Epoch 331, train Loss: 0.08854 Training Accuracy: 99.99858204969443
+2024-04-25 22:23:12 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:23:28 INFO     Epoch 332, train Loss: 0.11695 Training Accuracy: 99.99810939959258
+2024-04-25 22:23:28 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:23:43 INFO     Epoch 333, train Loss: 0.15685 Training Accuracy: 99.99810939959258
+2024-04-25 22:23:44 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:23:59 INFO     Epoch 334, train Loss: 0.09891 Training Accuracy: 99.99669144928701
+2024-04-25 22:24:00 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:24:15 INFO     Epoch 335, train Loss: 0.09629 Training Accuracy: 99.99716409938887
+2024-04-25 22:24:16 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:24:31 INFO     Epoch 336, train Loss: 0.14476 Training Accuracy: 99.99669144928701
+2024-04-25 22:24:32 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:24:47 INFO     Epoch 337, train Loss: 0.09208 Training Accuracy: 99.99621879918516
+2024-04-25 22:24:47 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:25:03 INFO     Epoch 338, train Loss: 249.84012 Training Accuracy: 99.96266064195336
+2024-04-25 22:25:03 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:25:19 INFO     Epoch 339, train Loss: 0.17216 Training Accuracy: 99.99858204969443
+2024-04-25 22:25:19 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:25:35 INFO     Epoch 340, train Loss: 0.10004 Training Accuracy: 99.99810939959258
+2024-04-25 22:25:35 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:25:51 INFO     Epoch 341, train Loss: 0.11586 Training Accuracy: 99.99858204969443
+2024-04-25 22:25:51 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:26:06 INFO     Epoch 342, train Loss: 0.10446 Training Accuracy: 99.99810939959258
+2024-04-25 22:26:07 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:26:22 INFO     Epoch 343, train Loss: 0.09164 Training Accuracy: 99.99763674949072
+2024-04-25 22:26:23 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:26:38 INFO     Epoch 344, train Loss: 0.11165 Training Accuracy: 99.99763674949072
+2024-04-25 22:26:39 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:26:54 INFO     Epoch 345, train Loss: 0.11236 Training Accuracy: 99.99858204969443
+2024-04-25 22:26:55 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:27:10 INFO     Epoch 346, train Loss: 0.17170 Training Accuracy: 99.99716409938887
+2024-04-25 22:27:11 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:27:26 INFO     Epoch 347, train Loss: 0.12202 Training Accuracy: 99.99574614908329
+2024-04-25 22:27:27 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:27:42 INFO     Epoch 348, train Loss: 0.11720 Training Accuracy: 99.99763674949072
+2024-04-25 22:27:42 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:27:58 INFO     Epoch 349, train Loss: 0.09234 Training Accuracy: 99.99858204969443
+2024-04-25 22:27:58 INFO     validate label len:19966 validate data len:19966
+2024-04-25 22:28:01 INFO     Load second stage training data set!
+2024-04-25 22:28:01 INFO     Loading test data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_pickle/Pairs
+2024-04-25 22:28:01 INFO     Loading train data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_pickle/Pairs
+2024-04-25 22:28:01 INFO     Add train set year/month 2017 12
+2024-04-25 22:28:03 INFO     Add train set year/month 2017 11
+2024-04-25 22:28:05 INFO     Add train set year/month 2017 10
+2024-04-25 22:28:07 INFO     Add train set year/month 2017 9
+2024-04-25 22:28:09 INFO     Add train set year/month 2017 8
+2024-04-25 22:28:12 INFO     Add train set year/month 2017 7
+2024-04-25 22:28:14 INFO     Add train set year/month 2017 6
+2024-04-25 22:28:17 INFO     Add train set year/month 2017 5
+2024-04-25 22:28:19 INFO     Add train set year/month 2017 4
+2024-04-25 22:28:21 INFO     Add train set year/month 2017 3
+2024-04-25 22:28:24 INFO     Add train set year/month 2017 2
+2024-04-25 22:28:27 INFO     Add train set year/month 2017 1
+2024-04-25 22:28:29 INFO     Total Pairs: 120437
+2024-04-25 22:28:29 INFO     Train Pairs: 120437
+2024-04-25 22:28:29 INFO     Test Pairs: 0
+2024-04-25 22:28:29 INFO     Loading test data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_price_pickle/Pairs
+2024-04-25 22:28:29 INFO     Loading train data from: C:\Users\eason\Desktop\PTDQN-main/Data\HsinHuaChang_reverse_random_300_new_std_price_pickle/Pairs
+2024-04-25 22:28:29 INFO     Add train set year/month 2017 12
+2024-04-25 22:28:30 INFO     Add train set year/month 2017 11
+2024-04-25 22:28:31 INFO     Add train set year/month 2017 10
+2024-04-25 22:28:33 INFO     Add train set year/month 2017 9
+2024-04-25 22:28:35 INFO     Add train set year/month 2017 8
+2024-04-25 22:28:36 INFO     Add train set year/month 2017 7
+2024-04-25 22:28:39 INFO     Add train set year/month 2017 6
+2024-04-25 22:28:40 INFO     Add train set year/month 2017 5
+2024-04-25 22:28:42 INFO     Add train set year/month 2017 4
+2024-04-25 22:28:44 INFO     Add train set year/month 2017 3
+2024-04-25 22:28:47 INFO     Add train set year/month 2017 2
+2024-04-25 22:28:48 INFO     Add train set year/month 2017 1
+2024-04-25 22:28:49 INFO     Total Pairs: 120437
+2024-04-25 22:28:49 INFO     Train Pairs: 120437
+2024-04-25 22:28:49 INFO     Test Pairs: 0
+2024-04-25 22:28:49 INFO     get_input_output given_action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 22:29:36 INFO     get_input_output given_action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 22:29:42 INFO     model_train given_action: [[1000000, 2500000], [7.800000000000001, 19.5], [6.9, 13.5], [6.1000000000000005, 13.5], [5.2, 14.5], [4.8500000000000005, 13.5], [4.300000000000001, 17.5], [3.7, 11.5], [3.5, 8.5], [3.3000000000000003, 19.5], [2.85, 13.5], [2.5500000000000003, 18.5], [2.5, 7.5], [2.4000000000000004, 8.5], [2.25, 20.5], [2.05, 13.5], [2.0, 12.5], [1.9000000000000001, 13.5], [1.7000000000000002, 9.5], [1.6, 21.5], [1.4500000000000002, 21.5], [1.35, 10.5], [1.3, 20.5], [1.1, 17.5], [0.9, 21.5]]
+2024-04-25 22:29:42 INFO     model_train num_classes: 2
+2024-04-25 22:29:51 INFO     Epoch 0, train Loss: 338.44617 Training Accuracy: 75.92019063908931
+2024-04-25 22:30:00 INFO     Epoch 1, train Loss: 337.67484 Training Accuracy: 76.60685669686227
+2024-04-25 22:30:09 INFO     Epoch 2, train Loss: 334.63965 Training Accuracy: 76.6018748391275
+2024-04-25 22:30:18 INFO     Epoch 3, train Loss: 320.51538 Training Accuracy: 76.59357174290292
+2024-04-25 22:30:27 INFO     Epoch 4, train Loss: 328.29538 Training Accuracy: 76.62927505666863
+2024-04-25 22:30:36 INFO     Epoch 5, train Loss: 328.16803 Training Accuracy: 76.74053654607803
+2024-04-25 22:30:44 INFO     Epoch 6, train Loss: 339.85846 Training Accuracy: 76.85927082208956
+2024-04-25 22:30:54 INFO     Epoch 7, train Loss: 322.03287 Training Accuracy: 77.04526017752019
+2024-04-25 22:31:03 INFO     Epoch 8, train Loss: 317.97302 Training Accuracy: 77.37157185914627
+2024-04-25 22:31:12 INFO     Epoch 9, train Loss: 327.21356 Training Accuracy: 77.7186412813338
+2024-04-25 22:31:21 INFO     Epoch 10, train Loss: 312.42969 Training Accuracy: 78.25751222630919
+2024-04-25 22:31:29 INFO     Epoch 11, train Loss: 289.18207 Training Accuracy: 78.84038958127486
+2024-04-25 22:31:39 INFO     Epoch 12, train Loss: 289.97726 Training Accuracy: 79.58517731261988
+2024-04-25 22:31:48 INFO     Epoch 13, train Loss: 272.65903 Training Accuracy: 80.23364912775975
+2024-04-25 22:31:56 INFO     Epoch 14, train Loss: 298.51874 Training Accuracy: 81.25160872489352
+2024-04-25 22:32:06 INFO     Epoch 15, train Loss: 248.58205 Training Accuracy: 82.35010835540574
+2024-04-25 22:32:14 INFO     Epoch 16, train Loss: 265.95630 Training Accuracy: 83.72676170944145
+2024-04-25 22:32:23 INFO     Epoch 17, train Loss: 203.38789 Training Accuracy: 85.0552571053746
+2024-04-25 22:32:33 INFO     Epoch 18, train Loss: 199.35654 Training Accuracy: 86.68100334614778
+2024-04-25 22:32:41 INFO     Epoch 19, train Loss: 171.22993 Training Accuracy: 88.355737854646
+2024-04-25 22:32:50 INFO     Epoch 20, train Loss: 144.73630 Training Accuracy: 90.17660685669686
+2024-04-25 22:32:59 INFO     Epoch 21, train Loss: 153.15671 Training Accuracy: 91.72928585069373
+2024-04-25 22:33:08 INFO     Epoch 22, train Loss: 127.70205 Training Accuracy: 92.98803523834037
+2024-04-25 22:33:17 INFO     Epoch 23, train Loss: 105.07740 Training Accuracy: 94.72753389739033
+2024-04-25 22:33:26 INFO     Epoch 24, train Loss: 90.49351 Training Accuracy: 95.51964927721548
+2024-04-25 22:33:35 INFO     Epoch 25, train Loss: 65.78081 Training Accuracy: 96.3715469498576
+2024-04-25 22:33:44 INFO     Epoch 26, train Loss: 62.27974 Training Accuracy: 97.0175278361301
+2024-04-25 22:33:53 INFO     Epoch 27, train Loss: 58.79858 Training Accuracy: 97.22095369363235
+2024-04-25 22:34:02 INFO     Epoch 28, train Loss: 31.17849 Training Accuracy: 97.73491534993398
+2024-04-25 22:34:11 INFO     Epoch 29, train Loss: 30.90225 Training Accuracy: 97.86029210292519
+2024-04-25 22:34:21 INFO     Epoch 30, train Loss: 48.43624 Training Accuracy: 98.16169449587751
+2024-04-25 22:34:29 INFO     Epoch 31, train Loss: 46.73957 Training Accuracy: 98.39916304790056
+2024-04-25 22:34:38 INFO     Epoch 32, train Loss: 35.50628 Training Accuracy: 98.35017478017552
+2024-04-25 22:34:47 INFO     Epoch 33, train Loss: 25.13497 Training Accuracy: 98.62998912294394
+2024-04-25 22:34:56 INFO     Epoch 34, train Loss: 22.33094 Training Accuracy: 98.6349709806787
+2024-04-25 22:35:06 INFO     Epoch 35, train Loss: 31.28251 Training Accuracy: 98.64410438652574
+2024-04-25 22:35:14 INFO     Epoch 36, train Loss: 37.98293 Training Accuracy: 98.71800194292452
+2024-04-25 22:35:24 INFO     Epoch 37, train Loss: 29.27620 Training Accuracy: 98.6607105789749
+2024-04-25 22:35:32 INFO     Epoch 38, train Loss: 21.72957 Training Accuracy: 98.96543421041706
+2024-04-25 22:35:42 INFO     Epoch 39, train Loss: 19.00441 Training Accuracy: 99.12651427717395
+2024-04-25 22:35:51 INFO     Epoch 40, train Loss: 36.86539 Training Accuracy: 98.97622823550903
+2024-04-25 22:36:00 INFO     Epoch 41, train Loss: 34.52783 Training Accuracy: 98.87576077119158
+2024-04-25 22:36:09 INFO     Epoch 42, train Loss: 10.32977 Training Accuracy: 98.93056120627382
+2024-04-25 22:36:18 INFO     Epoch 43, train Loss: 14.85857 Training Accuracy: 99.10492622699005
+2024-04-25 22:36:27 INFO     Epoch 44, train Loss: 19.07240 Training Accuracy: 99.05925919775484
+2024-04-25 22:36:35 INFO     Epoch 45, train Loss: 41.55769 Training Accuracy: 99.23362421847106
+2024-04-25 22:36:45 INFO     Epoch 46, train Loss: 21.51411 Training Accuracy: 98.97622823550903
+2024-04-25 22:36:54 INFO     Epoch 47, train Loss: 19.63098 Training Accuracy: 99.2112058586647
+2024-04-25 22:37:03 INFO     Epoch 48, train Loss: 15.32432 Training Accuracy: 99.18795718923586
+2024-04-25 22:37:12 INFO     Epoch 49, train Loss: 1.77447 Training Accuracy: 99.66704584139426
+2024-04-25 22:37:21 INFO     Epoch 50, train Loss: 30.68112 Training Accuracy: 99.97176947283641
+2024-04-25 22:37:30 INFO     Epoch 51, train Loss: 1.10640 Training Accuracy: 99.98671504604067
+2024-04-25 22:37:39 INFO     Epoch 52, train Loss: 0.57527 Training Accuracy: 99.98588473641821
+2024-04-25 22:37:48 INFO     Epoch 53, train Loss: 0.45956 Training Accuracy: 99.98671504604067
+2024-04-25 22:37:57 INFO     Epoch 54, train Loss: 0.45078 Training Accuracy: 99.98920597490805
+2024-04-25 22:38:06 INFO     Epoch 55, train Loss: 0.21402 Training Accuracy: 99.98920597490805
+2024-04-25 22:38:15 INFO     Epoch 56, train Loss: 0.20774 Training Accuracy: 99.98837566528559
+2024-04-25 22:38:25 INFO     Epoch 57, train Loss: 0.21351 Training Accuracy: 99.9941878326428
+2024-04-25 22:38:33 INFO     Epoch 58, train Loss: 0.26881 Training Accuracy: 99.99086659415296
+2024-04-25 22:38:43 INFO     Epoch 59, train Loss: 0.23004 Training Accuracy: 99.99501814226525
+2024-04-25 22:38:51 INFO     Epoch 60, train Loss: 0.16510 Training Accuracy: 99.99667876151017
+2024-04-25 22:39:01 INFO     Epoch 61, train Loss: 0.12928 Training Accuracy: 99.99833938075508
+2024-04-25 22:39:10 INFO     Epoch 62, train Loss: 0.19104 Training Accuracy: 99.99667876151017
+2024-04-25 22:39:18 INFO     Epoch 63, train Loss: 0.20388 Training Accuracy: 99.99501814226525
+2024-04-25 22:39:28 INFO     Epoch 64, train Loss: 0.21387 Training Accuracy: 99.9941878326428
+2024-04-25 22:39:36 INFO     Epoch 65, train Loss: 0.05718 Training Accuracy: 99.99335752302034
+2024-04-25 22:39:46 INFO     Epoch 66, train Loss: 0.12754 Training Accuracy: 99.99916969037754
+2024-04-25 22:39:55 INFO     Epoch 67, train Loss: 0.09865 Training Accuracy: 99.99750907113263
+2024-04-25 22:40:04 INFO     Epoch 68, train Loss: 0.15883 Training Accuracy: 99.99750907113263
+2024-04-25 22:40:13 INFO     Epoch 69, train Loss: 0.09379 Training Accuracy: 99.99750907113263
+2024-04-25 22:40:22 INFO     Epoch 70, train Loss: 0.07547 Training Accuracy: 99.99833938075508
+2024-04-25 22:40:31 INFO     Epoch 71, train Loss: 0.06577 Training Accuracy: 99.99584845188771
+2024-04-25 22:40:40 INFO     Epoch 72, train Loss: 0.09672 Training Accuracy: 99.99584845188771
+2024-04-25 22:40:49 INFO     Epoch 73, train Loss: 0.07919 Training Accuracy: 99.99750907113263
+2024-04-25 22:40:58 INFO     Epoch 74, train Loss: 0.05286 Training Accuracy: 99.99584845188771
+2024-04-25 22:41:07 INFO     Epoch 75, train Loss: 0.04218 Training Accuracy: 99.99916969037754
+2024-04-25 22:41:16 INFO     Epoch 76, train Loss: 0.05345 Training Accuracy: 99.99916969037754
+2024-04-25 22:41:25 INFO     Epoch 77, train Loss: 0.06397 Training Accuracy: 99.99667876151017
+2024-04-25 22:41:34 INFO     Epoch 78, train Loss: 0.05299 Training Accuracy: 100.0
+2024-04-25 22:41:44 INFO     Epoch 79, train Loss: 0.03023 Training Accuracy: 99.9941878326428
+2024-04-25 22:41:52 INFO     Epoch 80, train Loss: 0.35192 Training Accuracy: 99.99750907113263
+2024-04-25 22:42:02 INFO     Epoch 81, train Loss: 0.04562 Training Accuracy: 99.99252721339788
+2024-04-25 22:42:10 INFO     Epoch 82, train Loss: 0.07336 Training Accuracy: 99.99833938075508
+2024-04-25 22:42:20 INFO     Epoch 83, train Loss: 0.04642 Training Accuracy: 99.99667876151017
+2024-04-25 22:42:29 INFO     Epoch 84, train Loss: 0.03471 Training Accuracy: 99.99750907113263
+2024-04-25 22:42:37 INFO     Epoch 85, train Loss: 0.04206 Training Accuracy: 99.99833938075508
+2024-04-25 22:42:47 INFO     Epoch 86, train Loss: 0.18363 Training Accuracy: 99.99667876151017
+2024-04-25 22:42:55 INFO     Epoch 87, train Loss: 0.03002 Training Accuracy: 99.99833938075508
+2024-04-25 22:43:05 INFO     Epoch 88, train Loss: 0.03236 Training Accuracy: 99.99916969037754
+2024-04-25 22:43:14 INFO     Epoch 89, train Loss: 0.01514 Training Accuracy: 99.99916969037754
+2024-04-25 22:43:23 INFO     Epoch 90, train Loss: 0.09178 Training Accuracy: 99.99584845188771
+2024-04-25 22:43:32 INFO     Epoch 91, train Loss: 0.10175 Training Accuracy: 99.99335752302034
+2024-04-25 22:43:41 INFO     Epoch 92, train Loss: 0.13865 Training Accuracy: 99.99667876151017
+2024-04-25 22:43:50 INFO     Epoch 93, train Loss: 0.26581 Training Accuracy: 99.99667876151017
+2024-04-25 22:43:59 INFO     Epoch 94, train Loss: 0.03357 Training Accuracy: 99.9941878326428
+2024-04-25 22:44:08 INFO     Epoch 95, train Loss: 0.04498 Training Accuracy: 99.99833938075508
+2024-04-25 22:44:18 INFO     Epoch 96, train Loss: 0.06921 Training Accuracy: 99.9900362845305
+2024-04-25 22:44:26 INFO     Epoch 97, train Loss: 0.14042 Training Accuracy: 99.98505442679576
+2024-04-25 22:44:36 INFO     Epoch 98, train Loss: 21.33107 Training Accuracy: 99.98090287868347
+2024-04-25 22:44:44 INFO     Epoch 99, train Loss: 0.04915 Training Accuracy: 99.99501814226525
+2024-04-25 22:44:53 INFO     Epoch 100, train Loss: 0.03963 Training Accuracy: 99.99667876151017
+2024-04-25 22:45:03 INFO     Epoch 101, train Loss: 0.03560 Training Accuracy: 99.99584845188771
+2024-04-25 22:45:11 INFO     Epoch 102, train Loss: 0.88180 Training Accuracy: 99.99916969037754
+2024-04-25 22:45:21 INFO     Epoch 103, train Loss: 0.01281 Training Accuracy: 99.99750907113263
+2024-04-25 22:45:29 INFO     Epoch 104, train Loss: 0.02060 Training Accuracy: 99.99833938075508
+2024-04-25 22:45:39 INFO     Epoch 105, train Loss: 0.03713 Training Accuracy: 99.99501814226525
+2024-04-25 22:45:48 INFO     Epoch 106, train Loss: 0.03933 Training Accuracy: 99.99667876151017
+2024-04-25 22:45:57 INFO     Epoch 107, train Loss: 0.07653 Training Accuracy: 99.99750907113263
+2024-04-25 22:46:06 INFO     Epoch 108, train Loss: 0.01263 Training Accuracy: 99.99833938075508
+2024-04-25 22:46:15 INFO     Epoch 109, train Loss: 0.02555 Training Accuracy: 99.99916969037754
+2024-04-25 22:46:24 INFO     Epoch 110, train Loss: 0.02448 Training Accuracy: 99.99750907113263
+2024-04-25 22:46:34 INFO     Epoch 111, train Loss: 0.02527 Training Accuracy: 99.99916969037754
+2024-04-25 22:46:42 INFO     Epoch 112, train Loss: 0.01395 Training Accuracy: 99.99584845188771
+2024-04-25 22:46:52 INFO     Epoch 113, train Loss: 0.01096 Training Accuracy: 99.99833938075508
+2024-04-25 22:47:00 INFO     Epoch 114, train Loss: 0.03291 Training Accuracy: 100.0
+2024-04-25 22:47:09 INFO     Epoch 115, train Loss: 0.00978 Training Accuracy: 99.99916969037754
+2024-04-25 22:47:19 INFO     Epoch 116, train Loss: 0.01555 Training Accuracy: 99.99833938075508
+2024-04-25 22:47:27 INFO     Epoch 117, train Loss: 0.00946 Training Accuracy: 100.0
+2024-04-25 22:47:37 INFO     Epoch 118, train Loss: 0.07350 Training Accuracy: 99.99750907113263
+2024-04-25 22:47:45 INFO     Epoch 119, train Loss: 0.02507 Training Accuracy: 99.99750907113263
+2024-04-25 22:47:55 INFO     Epoch 120, train Loss: 0.01272 Training Accuracy: 100.0
+2024-04-25 22:48:04 INFO     Epoch 121, train Loss: 0.01170 Training Accuracy: 99.99916969037754
+2024-04-25 22:48:13 INFO     Epoch 122, train Loss: 0.02033 Training Accuracy: 100.0
+2024-04-25 22:48:22 INFO     Epoch 123, train Loss: 0.01203 Training Accuracy: 99.99916969037754
+2024-04-25 22:48:31 INFO     Epoch 124, train Loss: 0.01321 Training Accuracy: 99.99833938075508
+2024-04-25 22:48:40 INFO     Epoch 125, train Loss: 0.00726 Training Accuracy: 99.99916969037754
+2024-04-25 22:48:49 INFO     Epoch 126, train Loss: 0.01632 Training Accuracy: 100.0
+2024-04-25 22:48:58 INFO     Epoch 127, train Loss: 0.01231 Training Accuracy: 100.0
+2024-04-25 22:49:08 INFO     Epoch 128, train Loss: 0.01056 Training Accuracy: 99.99916969037754
+2024-04-25 22:49:16 INFO     Epoch 129, train Loss: 0.00662 Training Accuracy: 99.99916969037754
+2024-04-25 22:49:26 INFO     Epoch 130, train Loss: 0.00856 Training Accuracy: 99.99833938075508
+2024-04-25 22:49:34 INFO     Epoch 131, train Loss: 0.00834 Training Accuracy: 100.0
+2024-04-25 22:49:44 INFO     Epoch 132, train Loss: 0.02103 Training Accuracy: 99.99833938075508
+2024-04-25 22:49:53 INFO     Epoch 133, train Loss: 0.00993 Training Accuracy: 100.0
+2024-04-25 22:50:02 INFO     Epoch 134, train Loss: 0.00924 Training Accuracy: 99.99916969037754
+2024-04-25 22:50:11 INFO     Epoch 135, train Loss: 0.00592 Training Accuracy: 100.0
+2024-04-25 22:50:20 INFO     Epoch 136, train Loss: 0.00896 Training Accuracy: 100.0
+2024-04-25 22:50:29 INFO     Epoch 137, train Loss: 0.01308 Training Accuracy: 100.0
+2024-04-25 22:50:39 INFO     Epoch 138, train Loss: 0.00987 Training Accuracy: 99.99916969037754
+2024-04-25 22:50:47 INFO     Epoch 139, train Loss: 0.00346 Training Accuracy: 100.0
+2024-04-25 22:50:57 INFO     Epoch 140, train Loss: 0.01059 Training Accuracy: 99.99916969037754
+2024-04-25 22:51:05 INFO     Epoch 141, train Loss: 0.01010 Training Accuracy: 100.0
+2024-04-25 22:51:15 INFO     Epoch 142, train Loss: 0.00647 Training Accuracy: 100.0
+2024-04-25 22:51:24 INFO     Epoch 143, train Loss: 0.00455 Training Accuracy: 100.0
+2024-04-25 22:51:33 INFO     Epoch 144, train Loss: 0.00510 Training Accuracy: 99.99916969037754
+2024-04-25 22:51:42 INFO     Epoch 145, train Loss: 0.00492 Training Accuracy: 100.0
+2024-04-25 22:51:51 INFO     Epoch 146, train Loss: 0.00737 Training Accuracy: 100.0
+2024-04-25 22:52:00 INFO     Epoch 147, train Loss: 0.01322 Training Accuracy: 99.99833938075508
+2024-04-25 22:52:09 INFO     Epoch 148, train Loss: 0.00272 Training Accuracy: 100.0
+2024-04-25 22:52:18 INFO     Epoch 149, train Loss: 0.00519 Training Accuracy: 100.0
+2024-04-25 22:52:27 INFO     Epoch 150, train Loss: 0.00584 Training Accuracy: 100.0
+2024-04-25 22:52:36 INFO     Epoch 151, train Loss: 0.00743 Training Accuracy: 100.0
+2024-04-25 22:52:45 INFO     Epoch 152, train Loss: 0.00423 Training Accuracy: 100.0
+2024-04-25 22:52:54 INFO     Epoch 153, train Loss: 0.00469 Training Accuracy: 100.0
+2024-04-25 22:53:03 INFO     Epoch 154, train Loss: 0.00560 Training Accuracy: 99.99916969037754
+2024-04-25 22:53:13 INFO     Epoch 155, train Loss: 0.00382 Training Accuracy: 100.0
+2024-04-25 22:53:21 INFO     Epoch 156, train Loss: 0.00611 Training Accuracy: 100.0
+2024-04-25 22:53:31 INFO     Epoch 157, train Loss: 0.00592 Training Accuracy: 100.0
+2024-04-25 22:53:39 INFO     Epoch 158, train Loss: 0.00845 Training Accuracy: 100.0
+2024-04-25 22:53:49 INFO     Epoch 159, train Loss: 0.00527 Training Accuracy: 100.0
+2024-04-25 22:53:58 INFO     Epoch 160, train Loss: 0.01000 Training Accuracy: 100.0
+2024-04-25 22:54:07 INFO     Epoch 161, train Loss: 0.00637 Training Accuracy: 100.0
+2024-04-25 22:54:16 INFO     Epoch 162, train Loss: 0.01446 Training Accuracy: 99.99916969037754
+2024-04-25 22:54:25 INFO     Epoch 163, train Loss: 0.00581 Training Accuracy: 100.0
+2024-04-25 22:54:34 INFO     Epoch 164, train Loss: 0.00683 Training Accuracy: 100.0
+2024-04-25 22:54:44 INFO     Epoch 165, train Loss: 0.01209 Training Accuracy: 100.0
+2024-04-25 22:54:52 INFO     Epoch 166, train Loss: 0.00919 Training Accuracy: 99.99916969037754
+2024-04-25 22:55:01 INFO     Epoch 167, train Loss: 0.00731 Training Accuracy: 100.0
+2024-04-25 22:55:10 INFO     Epoch 168, train Loss: 0.00848 Training Accuracy: 100.0
+2024-04-25 22:55:19 INFO     Epoch 169, train Loss: 0.00619 Training Accuracy: 100.0
+2024-04-25 22:55:28 INFO     Epoch 170, train Loss: 0.00700 Training Accuracy: 100.0
+2024-04-25 22:55:37 INFO     Epoch 171, train Loss: 0.00483 Training Accuracy: 99.99833938075508
+2024-04-25 22:55:47 INFO     Epoch 172, train Loss: 0.00506 Training Accuracy: 100.0
+2024-04-25 22:55:55 INFO     Epoch 173, train Loss: 0.00664 Training Accuracy: 100.0
+2024-04-25 22:56:05 INFO     Epoch 174, train Loss: 0.00577 Training Accuracy: 100.0
+2024-04-25 22:56:13 INFO     Epoch 175, train Loss: 0.00391 Training Accuracy: 100.0
+2024-04-25 22:56:23 INFO     Epoch 176, train Loss: 0.00646 Training Accuracy: 99.99916969037754
+2024-04-25 22:56:32 INFO     Epoch 177, train Loss: 0.00765 Training Accuracy: 100.0
+2024-04-25 22:56:41 INFO     Epoch 178, train Loss: 0.00736 Training Accuracy: 100.0
+2024-04-25 22:56:50 INFO     Epoch 179, train Loss: 0.00686 Training Accuracy: 99.99916969037754
+2024-04-25 22:56:59 INFO     Epoch 180, train Loss: 0.03624 Training Accuracy: 100.0
+2024-04-25 22:57:08 INFO     Epoch 181, train Loss: 0.00357 Training Accuracy: 100.0
+2024-04-25 22:57:18 INFO     Epoch 182, train Loss: 0.00838 Training Accuracy: 99.99916969037754
+2024-04-25 22:57:26 INFO     Epoch 183, train Loss: 0.00551 Training Accuracy: 100.0
+2024-04-25 22:57:36 INFO     Epoch 184, train Loss: 0.00563 Training Accuracy: 100.0
+2024-04-25 22:57:44 INFO     Epoch 185, train Loss: 0.00565 Training Accuracy: 100.0
+2024-04-25 22:57:54 INFO     Epoch 186, train Loss: 0.00527 Training Accuracy: 100.0
+2024-04-25 22:58:03 INFO     Epoch 187, train Loss: 0.00741 Training Accuracy: 100.0
+2024-04-25 22:58:12 INFO     Epoch 188, train Loss: 0.01088 Training Accuracy: 100.0
+2024-04-25 22:58:21 INFO     Epoch 189, train Loss: 0.00581 Training Accuracy: 100.0
+2024-04-25 22:58:30 INFO     Epoch 190, train Loss: 0.00678 Training Accuracy: 99.99916969037754
+2024-04-25 22:58:39 INFO     Epoch 191, train Loss: 0.00392 Training Accuracy: 100.0
+2024-04-25 22:58:48 INFO     Epoch 192, train Loss: 0.00387 Training Accuracy: 100.0
+2024-04-25 22:58:57 INFO     Epoch 193, train Loss: 0.00498 Training Accuracy: 100.0
+2024-04-25 22:59:06 INFO     Epoch 194, train Loss: 0.01349 Training Accuracy: 100.0
+2024-04-25 22:59:15 INFO     Epoch 195, train Loss: 0.00988 Training Accuracy: 100.0
+2024-04-25 22:59:24 INFO     Epoch 196, train Loss: 0.00500 Training Accuracy: 100.0
+2024-04-25 22:59:33 INFO     Epoch 197, train Loss: 0.00376 Training Accuracy: 100.0
+2024-04-25 22:59:42 INFO     Epoch 198, train Loss: 0.00547 Training Accuracy: 100.0
+2024-04-25 22:59:52 INFO     Epoch 199, train Loss: 0.00371 Training Accuracy: 100.0
+2024-04-25 23:00:00 INFO     Epoch 200, train Loss: 0.00365 Training Accuracy: 100.0
+2024-04-25 23:00:10 INFO     Epoch 201, train Loss: 0.00499 Training Accuracy: 100.0
+2024-04-25 23:00:18 INFO     Epoch 202, train Loss: 0.00802 Training Accuracy: 100.0
+2024-04-25 23:00:28 INFO     Epoch 203, train Loss: 0.02063 Training Accuracy: 100.0
+2024-04-25 23:00:37 INFO     Epoch 204, train Loss: 0.00692 Training Accuracy: 100.0
+2024-04-25 23:00:46 INFO     Epoch 205, train Loss: 0.00269 Training Accuracy: 100.0
+2024-04-25 23:00:55 INFO     Epoch 206, train Loss: 0.00565 Training Accuracy: 100.0
+2024-04-25 23:01:04 INFO     Epoch 207, train Loss: 0.00329 Training Accuracy: 100.0
+2024-04-25 23:01:13 INFO     Epoch 208, train Loss: 0.00398 Training Accuracy: 100.0
+2024-04-25 23:01:22 INFO     Epoch 209, train Loss: 0.00252 Training Accuracy: 99.99584845188771
+2024-04-25 23:01:31 INFO     Epoch 210, train Loss: 0.00315 Training Accuracy: 100.0
+2024-04-25 23:01:40 INFO     Epoch 211, train Loss: 0.00468 Training Accuracy: 100.0
+2024-04-25 23:01:49 INFO     Epoch 212, train Loss: 0.00505 Training Accuracy: 100.0
+2024-04-25 23:01:58 INFO     Epoch 213, train Loss: 0.00418 Training Accuracy: 100.0
+2024-04-25 23:02:07 INFO     Epoch 214, train Loss: 0.00664 Training Accuracy: 100.0
+2024-04-25 23:02:16 INFO     Epoch 215, train Loss: 0.00568 Training Accuracy: 99.99916969037754
+2024-04-25 23:02:26 INFO     Epoch 216, train Loss: 0.00380 Training Accuracy: 99.99916969037754
+2024-04-25 23:02:34 INFO     Epoch 217, train Loss: 0.00385 Training Accuracy: 100.0
+2024-04-25 23:02:44 INFO     Epoch 218, train Loss: 0.00697 Training Accuracy: 99.99916969037754
+2024-04-25 23:02:52 INFO     Epoch 219, train Loss: 0.00626 Training Accuracy: 99.99916969037754
+2024-04-25 23:03:02 INFO     Epoch 220, train Loss: 0.00487 Training Accuracy: 100.0
+2024-04-25 23:03:11 INFO     Epoch 221, train Loss: 0.00454 Training Accuracy: 100.0
+2024-04-25 23:03:20 INFO     Epoch 222, train Loss: 0.00707 Training Accuracy: 100.0
+2024-04-25 23:03:29 INFO     Epoch 223, train Loss: 0.00780 Training Accuracy: 100.0
+2024-04-25 23:03:38 INFO     Epoch 224, train Loss: 0.00483 Training Accuracy: 100.0
+2024-04-25 23:03:47 INFO     Epoch 225, train Loss: 0.00348 Training Accuracy: 100.0
+2024-04-25 23:03:57 INFO     Epoch 226, train Loss: 0.01682 Training Accuracy: 100.0
+2024-04-25 23:04:05 INFO     Epoch 227, train Loss: 0.00383 Training Accuracy: 100.0
+2024-04-25 23:04:15 INFO     Epoch 228, train Loss: 0.00344 Training Accuracy: 100.0
+2024-04-25 23:04:23 INFO     Epoch 229, train Loss: 0.00643 Training Accuracy: 100.0
+2024-04-25 23:04:33 INFO     Epoch 230, train Loss: 0.01311 Training Accuracy: 100.0
+2024-04-25 23:04:42 INFO     Epoch 231, train Loss: 0.00412 Training Accuracy: 99.99916969037754
+2024-04-25 23:04:51 INFO     Epoch 232, train Loss: 0.00653 Training Accuracy: 100.0
+2024-04-25 23:05:00 INFO     Epoch 233, train Loss: 0.00501 Training Accuracy: 99.99916969037754
+2024-04-25 23:05:09 INFO     Epoch 234, train Loss: 0.00443 Training Accuracy: 99.99916969037754
+2024-04-25 23:05:18 INFO     Epoch 235, train Loss: 0.00648 Training Accuracy: 99.99833938075508
+2024-04-25 23:05:27 INFO     Epoch 236, train Loss: 0.00368 Training Accuracy: 100.0
+2024-04-25 23:05:37 INFO     Epoch 237, train Loss: 0.00453 Training Accuracy: 100.0
+2024-04-25 23:05:46 INFO     Epoch 238, train Loss: 0.00447 Training Accuracy: 100.0
+2024-04-25 23:05:55 INFO     Epoch 239, train Loss: 0.00602 Training Accuracy: 100.0
+2024-04-25 23:06:05 INFO     Epoch 240, train Loss: 0.00387 Training Accuracy: 100.0
+2024-04-25 23:06:13 INFO     Epoch 241, train Loss: 0.00513 Training Accuracy: 100.0
+2024-04-25 23:06:23 INFO     Epoch 242, train Loss: 0.00961 Training Accuracy: 100.0
+2024-04-25 23:06:33 INFO     Epoch 243, train Loss: 0.01223 Training Accuracy: 99.99916969037754
+2024-04-25 23:06:41 INFO     Epoch 244, train Loss: 0.00438 Training Accuracy: 99.99750907113263
+2024-04-25 23:06:51 INFO     Epoch 245, train Loss: 0.00405 Training Accuracy: 100.0
+2024-04-25 23:07:00 INFO     Epoch 246, train Loss: 0.00397 Training Accuracy: 100.0
+2024-04-25 23:07:09 INFO     Epoch 247, train Loss: 0.00363 Training Accuracy: 100.0
+2024-04-25 23:07:19 INFO     Epoch 248, train Loss: 0.00330 Training Accuracy: 100.0
+2024-04-25 23:07:27 INFO     Epoch 249, train Loss: 0.00804 Training Accuracy: 100.0
+2024-04-25 23:07:37 INFO     Epoch 250, train Loss: 0.00943 Training Accuracy: 100.0
+2024-04-25 23:07:46 INFO     Epoch 251, train Loss: 0.00411 Training Accuracy: 100.0
+2024-04-25 23:07:55 INFO     Epoch 252, train Loss: 0.01892 Training Accuracy: 100.0
+2024-04-25 23:08:05 INFO     Epoch 253, train Loss: 0.00553 Training Accuracy: 99.99750907113263
+2024-04-25 23:08:14 INFO     Epoch 254, train Loss: 0.00603 Training Accuracy: 100.0
+2024-04-25 23:08:23 INFO     Epoch 255, train Loss: 0.00440 Training Accuracy: 100.0
+2024-04-25 23:08:32 INFO     Epoch 256, train Loss: 0.00379 Training Accuracy: 100.0
+2024-04-25 23:08:42 INFO     Epoch 257, train Loss: 0.00676 Training Accuracy: 100.0
+2024-04-25 23:08:50 INFO     Epoch 258, train Loss: 0.00853 Training Accuracy: 100.0
+2024-04-25 23:09:00 INFO     Epoch 259, train Loss: 0.02650 Training Accuracy: 100.0
+2024-04-25 23:09:10 INFO     Epoch 260, train Loss: 0.00665 Training Accuracy: 100.0
+2024-04-25 23:09:18 INFO     Epoch 261, train Loss: 0.00606 Training Accuracy: 100.0
+2024-04-25 23:09:28 INFO     Epoch 262, train Loss: 0.13823 Training Accuracy: 99.99916969037754
+2024-04-25 23:09:37 INFO     Epoch 263, train Loss: 0.00470 Training Accuracy: 100.0
+2024-04-25 23:09:47 INFO     Epoch 264, train Loss: 0.00509 Training Accuracy: 100.0
+2024-04-25 23:09:56 INFO     Epoch 265, train Loss: 0.00451 Training Accuracy: 100.0
+2024-04-25 23:10:05 INFO     Epoch 266, train Loss: 0.00486 Training Accuracy: 100.0
+2024-04-25 23:10:15 INFO     Epoch 267, train Loss: 0.00520 Training Accuracy: 100.0
+2024-04-25 23:10:24 INFO     Epoch 268, train Loss: 0.00726 Training Accuracy: 100.0
+2024-04-25 23:10:34 INFO     Epoch 269, train Loss: 0.00386 Training Accuracy: 100.0
+2024-04-25 23:10:43 INFO     Epoch 270, train Loss: 0.00552 Training Accuracy: 99.99916969037754
+2024-04-25 23:10:52 INFO     Epoch 271, train Loss: 0.01203 Training Accuracy: 99.99916969037754
+2024-04-25 23:11:02 INFO     Epoch 272, train Loss: 0.00631 Training Accuracy: 100.0
+2024-04-25 23:11:11 INFO     Epoch 273, train Loss: 0.00396 Training Accuracy: 99.99916969037754
+2024-04-25 23:11:20 INFO     Epoch 274, train Loss: 0.00378 Training Accuracy: 99.99916969037754
+2024-04-25 23:11:30 INFO     Epoch 275, train Loss: 0.00571 Training Accuracy: 100.0
+2024-04-25 23:11:38 INFO     Epoch 276, train Loss: 0.00541 Training Accuracy: 100.0
+2024-04-25 23:11:48 INFO     Epoch 277, train Loss: 0.07601 Training Accuracy: 99.99916969037754
+2024-04-25 23:11:57 INFO     Epoch 278, train Loss: 0.00454 Training Accuracy: 100.0
+2024-04-25 23:12:06 INFO     Epoch 279, train Loss: 0.00639 Training Accuracy: 100.0
+2024-04-25 23:12:15 INFO     Epoch 280, train Loss: 0.00818 Training Accuracy: 100.0
+2024-04-25 23:12:24 INFO     Epoch 281, train Loss: 0.00591 Training Accuracy: 100.0
+2024-04-25 23:12:34 INFO     Epoch 282, train Loss: 0.00662 Training Accuracy: 100.0
+2024-04-25 23:12:43 INFO     Epoch 283, train Loss: 0.00443 Training Accuracy: 100.0
+2024-04-25 23:12:52 INFO     Epoch 284, train Loss: 0.00491 Training Accuracy: 100.0
+2024-04-25 23:13:01 INFO     Epoch 285, train Loss: 0.00851 Training Accuracy: 100.0
+2024-04-25 23:13:11 INFO     Epoch 286, train Loss: 0.00470 Training Accuracy: 100.0
+2024-04-25 23:13:20 INFO     Epoch 287, train Loss: 0.01132 Training Accuracy: 100.0
+2024-04-25 23:13:29 INFO     Epoch 288, train Loss: 0.00303 Training Accuracy: 100.0
+2024-04-25 23:13:38 INFO     Epoch 289, train Loss: 0.00804 Training Accuracy: 100.0
+2024-04-25 23:13:47 INFO     Epoch 290, train Loss: 0.00431 Training Accuracy: 99.99916969037754
+2024-04-25 23:13:57 INFO     Epoch 291, train Loss: 0.00476 Training Accuracy: 100.0
+2024-04-25 23:14:06 INFO     Epoch 292, train Loss: 0.00470 Training Accuracy: 100.0
+2024-04-25 23:14:15 INFO     Epoch 293, train Loss: 0.01057 Training Accuracy: 100.0
+2024-04-25 23:14:24 INFO     Epoch 294, train Loss: 0.00380 Training Accuracy: 100.0
+2024-04-25 23:14:33 INFO     Epoch 295, train Loss: 0.00473 Training Accuracy: 100.0
+2024-04-25 23:14:43 INFO     Epoch 296, train Loss: 0.00577 Training Accuracy: 99.99916969037754
+2024-04-25 23:14:52 INFO     Epoch 297, train Loss: 0.03293 Training Accuracy: 100.0
+2024-04-25 23:15:01 INFO     Epoch 298, train Loss: 0.00489 Training Accuracy: 100.0
+2024-04-25 23:15:11 INFO     Epoch 299, train Loss: 0.00895 Training Accuracy: 100.0
+2024-04-25 23:15:19 INFO     Epoch 300, train Loss: 0.00337 Training Accuracy: 100.0
+2024-04-25 23:15:29 INFO     Epoch 301, train Loss: 0.03856 Training Accuracy: 99.99916969037754
+2024-04-25 23:15:38 INFO     Epoch 302, train Loss: 0.00268 Training Accuracy: 99.99916969037754
+2024-04-25 23:15:47 INFO     Epoch 303, train Loss: 0.00539 Training Accuracy: 100.0
+2024-04-25 23:15:57 INFO     Epoch 304, train Loss: 0.00289 Training Accuracy: 99.99833938075508
+2024-04-25 23:16:05 INFO     Epoch 305, train Loss: 0.00358 Training Accuracy: 100.0
+2024-04-25 23:16:15 INFO     Epoch 306, train Loss: 0.00490 Training Accuracy: 100.0
+2024-04-25 23:16:24 INFO     Epoch 307, train Loss: 0.00822 Training Accuracy: 100.0
+2024-04-25 23:16:33 INFO     Epoch 308, train Loss: 0.00592 Training Accuracy: 99.99916969037754
+2024-04-25 23:16:43 INFO     Epoch 309, train Loss: 0.00330 Training Accuracy: 100.0
+2024-04-25 23:16:52 INFO     Epoch 310, train Loss: 0.00711 Training Accuracy: 100.0
+2024-04-25 23:17:01 INFO     Epoch 311, train Loss: 0.00470 Training Accuracy: 100.0
+2024-04-25 23:17:10 INFO     Epoch 312, train Loss: 0.00606 Training Accuracy: 100.0
+2024-04-25 23:17:19 INFO     Epoch 313, train Loss: 0.00606 Training Accuracy: 100.0
+2024-04-25 23:17:29 INFO     Epoch 314, train Loss: 0.00410 Training Accuracy: 99.99833938075508
+2024-04-25 23:17:38 INFO     Epoch 315, train Loss: 0.00612 Training Accuracy: 99.99916969037754
+2024-04-25 23:17:48 INFO     Epoch 316, train Loss: 0.00649 Training Accuracy: 100.0
+2024-04-25 23:17:56 INFO     Epoch 317, train Loss: 0.00323 Training Accuracy: 100.0
+2024-04-25 23:18:06 INFO     Epoch 318, train Loss: 0.00817 Training Accuracy: 100.0
+2024-04-25 23:18:16 INFO     Epoch 319, train Loss: 0.00340 Training Accuracy: 100.0
+2024-04-25 23:18:24 INFO     Epoch 320, train Loss: 0.01022 Training Accuracy: 100.0
+2024-04-25 23:18:34 INFO     Epoch 321, train Loss: 0.00494 Training Accuracy: 100.0
+2024-04-25 23:18:43 INFO     Epoch 322, train Loss: 0.00431 Training Accuracy: 100.0
+2024-04-25 23:18:52 INFO     Epoch 323, train Loss: 0.00554 Training Accuracy: 100.0
+2024-04-25 23:19:01 INFO     Epoch 324, train Loss: 0.00662 Training Accuracy: 100.0
+2024-04-25 23:19:11 INFO     Epoch 325, train Loss: 0.00446 Training Accuracy: 100.0
+2024-04-25 23:19:20 INFO     Epoch 326, train Loss: 0.00567 Training Accuracy: 100.0
+2024-04-25 23:19:29 INFO     Epoch 327, train Loss: 0.00611 Training Accuracy: 100.0
+2024-04-25 23:19:39 INFO     Epoch 328, train Loss: 0.00399 Training Accuracy: 100.0
+2024-04-25 23:19:47 INFO     Epoch 329, train Loss: 0.00867 Training Accuracy: 100.0
+2024-04-25 23:19:57 INFO     Epoch 330, train Loss: 0.00353 Training Accuracy: 100.0
+2024-04-25 23:20:07 INFO     Epoch 331, train Loss: 0.00547 Training Accuracy: 100.0
+2024-04-25 23:20:15 INFO     Epoch 332, train Loss: 0.00392 Training Accuracy: 100.0
+2024-04-25 23:20:25 INFO     Epoch 333, train Loss: 0.00557 Training Accuracy: 100.0
+2024-04-25 23:20:34 INFO     Epoch 334, train Loss: 0.00397 Training Accuracy: 100.0
+2024-04-25 23:20:43 INFO     Epoch 335, train Loss: 0.00437 Training Accuracy: 99.99916969037754
+2024-04-25 23:20:53 INFO     Epoch 336, train Loss: 0.01051 Training Accuracy: 99.99833938075508
+2024-04-25 23:21:02 INFO     Epoch 337, train Loss: 0.00376 Training Accuracy: 100.0
+2024-04-25 23:21:11 INFO     Epoch 338, train Loss: 0.00463 Training Accuracy: 100.0
+2024-04-25 23:21:20 INFO     Epoch 339, train Loss: 0.00774 Training Accuracy: 100.0
+2024-04-25 23:21:29 INFO     Epoch 340, train Loss: 0.00533 Training Accuracy: 100.0
+2024-04-25 23:21:39 INFO     Epoch 341, train Loss: 0.00699 Training Accuracy: 100.0
+2024-04-25 23:21:48 INFO     Epoch 342, train Loss: 0.00560 Training Accuracy: 100.0
+2024-04-25 23:21:58 INFO     Epoch 343, train Loss: 0.00576 Training Accuracy: 100.0
+2024-04-25 23:22:06 INFO     Epoch 344, train Loss: 0.00502 Training Accuracy: 99.99916969037754
+2024-04-25 23:22:16 INFO     Epoch 345, train Loss: 0.00423 Training Accuracy: 100.0
+2024-04-25 23:22:25 INFO     Epoch 346, train Loss: 0.00448 Training Accuracy: 100.0
+2024-04-25 23:22:34 INFO     Epoch 347, train Loss: 0.00474 Training Accuracy: 99.99916969037754
+2024-04-25 23:22:44 INFO     Epoch 348, train Loss: 4.06977 Training Accuracy: 99.99750907113263
+2024-04-25 23:22:53 INFO     Epoch 349, train Loss: 0.02764 Training Accuracy: 100.0

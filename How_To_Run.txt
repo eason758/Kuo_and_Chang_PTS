@@ -1,0 +1,5 @@
+1. 先跑 research/cliuster.py 把分群結果產生出來, 分群檔案會出現在 Data 資料夾中, 名稱會是"gmm_{test start year}_model_type_{cluster數量}.json"
+
+2. 跑 agent/dqn_agent.py 訓練 RL model, RL model 會出現在 ptdqn_model/tmp28 資料夾中
+
+3. 跑 agent/trained_dqn_agent.py, 他會利用第二步產生的 RL model 去跑回測, 績效結果會在模型資料夾中的 Test資料夾中

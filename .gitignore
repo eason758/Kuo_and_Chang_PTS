@@ -1,0 +1,12 @@
+__pycache__/
+.idea/
+/Data/
+/formation_table/
+/n-arm-bandit/
+*.json
+*.driveupload
+*.bat
+*.jpg
+agent - tmp/
+agent/玉山/
+績效統整/

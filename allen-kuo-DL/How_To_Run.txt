@@ -1,0 +1,19 @@
+1. 跑 combine_table_and_price
+
+因為程式需要一個 Formation table 跟 股價 並在一起的檔案 (他寫死了= =)
+所以需要先創造出來
+能控制的部分就是你需要哪幾年的資料
+
+2. 跑 main.py
+
+績效檔案會出現在tmp7資料夾中
+
+需要調整日期只需要調整main中 被星號包圍的地方就可以了
+
+train : 只訓練模型1模型2
+test : 只作testing跟計算績效
+train and test : 一起做
+
+3. 想要有績效檔
+
+跑Testing.py
